@@ -6,7 +6,7 @@
 
 <p align="center">
   <em>One sentence in, one merged PR out.</em><br>
-  Write-ups, with receipts, from the team building <a href="https://run.ceo/coder/?lang=en">RunAI Coder</a> — an autonomous coding agent.
+  Write-ups, with receipts, from the team building <a href="https://run.ceo/coder/?utm_source=github_Official_Page">RunAI Coder</a> — an autonomous coding agent.
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@ Every number traces back to a machine-recorded ledger or a reproducible script �
 
 Terminal apps for **Windows** (10/11 x64), **macOS** (Apple Silicon) and **Linux** (x64), CLI included — an **Android** remote-control app is rolling out, iOS next. Free starter pack: US$25–30 of value, one-time, 14 days, no card required.
 
-→ [run.ceo/coder](https://run.ceo/coder/?lang=en#download)
+→ [run.ceo/coder](https://run.ceo/coder/?utm_source=github_Official_Page)
 
 ## License
 
