@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" width="660" height="240" role="img" aria-label="Illustrative release cadence over a quarter: harness releases arrive most weeks, model releases a few times a year">
+  <rect width="660" height="240" fill="#FFFFFF"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="36" font-size="18" font-weight="600" fill="#1F2328">Which layer moved?</text>
+    <text x="24" y="57" font-size="12" fill="#57606A">a typical quarter, sketched: the layer that updates faster owns most of the "it feels different" moments</text>
+
+    <!-- timeline base -->
+    <line x1="150" y1="100" x2="620" y2="100" stroke="#D0D7DE" stroke-width="1"/>
+    <line x1="150" y1="150" x2="620" y2="150" stroke="#D0D7DE" stroke-width="1"/>
+
+    <text x="140" y="104" font-size="12" font-weight="600" fill="#1F2328" text-anchor="end">harness releases</text>
+    <text x="140" y="154" font-size="12" font-weight="600" fill="#1F2328" text-anchor="end">model releases</text>
+
+    <!-- harness ticks: most weeks, irregular -->
+    <g stroke="#0072B2" stroke-width="3" stroke-linecap="round">
+      <line x1="165" y1="92" x2="165" y2="108"/>
+      <line x1="200" y1="92" x2="200" y2="108"/>
+      <line x1="238" y1="92" x2="238" y2="108"/>
+      <line x1="252" y1="92" x2="252" y2="108"/>
+      <line x1="296" y1="92" x2="296" y2="108"/>
+      <line x1="340" y1="92" x2="340" y2="108"/>
+      <line x1="379" y1="92" x2="379" y2="108"/>
+      <line x1="431" y1="92" x2="431" y2="108"/>
+      <line x1="470" y1="92" x2="470" y2="108"/>
+      <line x1="514" y1="92" x2="514" y2="108"/>
+      <line x1="528" y1="92" x2="528" y2="108"/>
+      <line x1="583" y1="92" x2="583" y2="108"/>
+    </g>
+
+    <!-- model tick: one -->
+    <g stroke="#D55E00" stroke-width="3" stroke-linecap="round">
+      <line x1="352" y1="142" x2="352" y2="158"/>
+    </g>
+    <text x="352" y="176" font-size="10.5" fill="#57606A" text-anchor="middle">one point release</text>
+
+    <!-- month marks -->
+    <g font-size="10.5" fill="#8B949E" text-anchor="middle">
+      <text x="228" y="200">month 1</text>
+      <text x="385" y="200">month 2</text>
+      <text x="542" y="200">month 3</text>
+    </g>
+    <line x1="150" y1="185" x2="150" y2="190" stroke="#D0D7DE"/>
+    <line x1="307" y1="185" x2="307" y2="190" stroke="#D0D7DE"/>
+    <line x1="463" y1="185" x2="463" y2="190" stroke="#D0D7DE"/>
+    <line x1="620" y1="185" x2="620" y2="190" stroke="#D0D7DE"/>
+
+    <text x="24" y="226" font-size="10" fill="#8B949E">illustrative cadence, not release data — pin both versions if you want yesterday's agent back</text>
+  </g>
+</svg>

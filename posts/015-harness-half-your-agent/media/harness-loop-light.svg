@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" width="660" height="430" role="img" aria-label="One lap around the harness loop: assemble context, model proposes, gate and execute, trim result, manage window, stop condition; everything except the model box is the harness">
+  <defs>
+    <marker id="arrL" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L8,4 L0,8 z" fill="#8B949E"/>
+    </marker>
+  </defs>
+  <rect width="660" height="430" fill="#FFFFFF"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="38" font-size="20" font-weight="600" fill="#1F2328">One lap around the loop</text>
+    <text x="24" y="60" font-size="12" fill="#57606A">everything except the orange box is the harness</text>
+
+    <text x="88" y="100" font-size="11" fill="#57606A">your message enters once</text>
+    <line x1="145" y1="106" x2="145" y2="126" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+
+    <!-- top row -->
+    <rect x="70" y="130" width="150" height="48" rx="6" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.5"/>
+    <text x="145" y="150" font-size="12" font-weight="600" fill="#1F2328" text-anchor="middle">assemble context</text>
+    <text x="145" y="166" font-size="10" fill="#57606A" text-anchor="middle">prompt · tools · rules · history</text>
+
+    <rect x="282" y="130" width="118" height="48" rx="6" fill="#FFF3EB" stroke="#D55E00" stroke-width="1.8"/>
+    <text x="341" y="150" font-size="12" font-weight="700" fill="#D55E00" text-anchor="middle">model</text>
+    <text x="341" y="166" font-size="10.5" fill="#57606A" text-anchor="middle">proposes; can't execute</text>
+
+    <rect x="452" y="130" width="150" height="48" rx="6" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.5"/>
+    <text x="527" y="150" font-size="12" font-weight="600" fill="#1F2328" text-anchor="middle">gate &amp; execute</text>
+    <text x="527" y="166" font-size="10.5" fill="#57606A" text-anchor="middle">permissions · grep / edit / tests</text>
+
+    <!-- bottom row -->
+    <rect x="452" y="240" width="150" height="48" rx="6" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.5"/>
+    <text x="527" y="260" font-size="12" font-weight="600" fill="#1F2328" text-anchor="middle">trim &amp; append result</text>
+    <text x="527" y="276" font-size="10.5" fill="#57606A" text-anchor="middle">errors retried or surfaced</text>
+
+    <rect x="282" y="240" width="118" height="48" rx="6" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.5"/>
+    <text x="341" y="260" font-size="12" font-weight="600" fill="#1F2328" text-anchor="middle">manage window</text>
+    <text x="341" y="276" font-size="10.5" fill="#57606A" text-anchor="middle">keep · trim · compact</text>
+
+    <rect x="70" y="240" width="150" height="48" rx="6" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.5"/>
+    <text x="145" y="260" font-size="12" font-weight="600" fill="#1F2328" text-anchor="middle">stop condition?</text>
+    <text x="145" y="276" font-size="10.5" fill="#57606A" text-anchor="middle">done · budget · tripwire</text>
+
+    <!-- arrows -->
+    <line x1="220" y1="154" x2="278" y2="154" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <line x1="400" y1="154" x2="448" y2="154" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <line x1="527" y1="178" x2="527" y2="236" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <line x1="452" y1="264" x2="404" y2="264" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <line x1="282" y1="264" x2="224" y2="264" stroke="#8B949E" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <path d="M110,240 C96,222 96,196 110,180" stroke="#8B949E" stroke-width="1.2" fill="none" marker-end="url(#arrL)"/>
+    <text x="60" y="214" font-size="10.5" fill="#57606A" text-anchor="middle" transform="rotate(-90 60 214)">not done: next lap</text>
+
+    <line x1="145" y1="288" x2="145" y2="330" stroke="#009E73" stroke-width="1.2" marker-end="url(#arrL)"/>
+    <rect x="70" y="334" width="150" height="40" rx="6" fill="#EBF7F1" stroke="#009E73" stroke-width="1.5"/>
+    <text x="145" y="358" font-size="12" font-weight="600" fill="#00794F" text-anchor="middle">reply reaches you</text>
+
+    <text x="282" y="352" font-size="11" fill="#57606A">one message from you ≈ dozens of laps;</text>
+    <text x="282" y="368" font-size="11" fill="#57606A">each harness box is a design choice made per tool</text>
+
+    <text x="24" y="410" font-size="10" fill="#8B949E">concept diagram — flow simplified, not tool-specific</text>
+  </g>
+</svg>

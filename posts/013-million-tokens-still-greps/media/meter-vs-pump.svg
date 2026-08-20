@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400" role="img" aria-label="Two ways to give the agent a repo: paste 700k tokens every turn at $3.50 a turn, or query the repo and read a 20k working set at 10 cents a turn">
+  <rect width="660" height="400" fill="#08090A"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="38" font-size="20" font-weight="600" fill="#E8E9EB">The meter runs every turn</text>
+    <text x="24" y="60" font-size="12" fill="#9BA0A8">same repo, two ways to hand it to the agent (three-turn slice; bars to scale)</text>
+
+    <line x1="330" y1="84" x2="330" y2="344" stroke="#1C1F26" stroke-width="1"/>
+
+    <!-- LEFT: paste -->
+    <text x="24" y="98" font-size="12" font-weight="700" fill="#B5822A">PASTE: repo in the window</text>
+    <text x="24" y="114" font-size="11" fill="#9BA0A8">700k tokens re-sent as input, every turn</text>
+
+    <g font-size="11" fill="#9BA0A8">
+      <text x="24" y="156">t1</text>
+      <text x="24" y="206">t2</text>
+      <text x="24" y="256">t3</text>
+    </g>
+    <g fill="#6B7FE3">
+      <rect x="46" y="140" width="210" height="24" rx="3"/>
+      <rect x="46" y="190" width="210" height="24" rx="3"/>
+      <rect x="46" y="240" width="210" height="24" rx="3"/>
+    </g>
+    <g fill="#5A5F68">
+      <rect x="258" y="140" width="5"  height="24" rx="2"/>
+      <rect x="258" y="190" width="12" height="24" rx="2"/>
+      <rect x="258" y="240" width="19" height="24" rx="2"/>
+    </g>
+    <g font-size="11" fill="#E8E9EB" text-anchor="middle">
+      <text x="151" y="156">repo 700k</text>
+      <text x="151" y="206">repo 700k</text>
+      <text x="151" y="256">repo 700k</text>
+    </g>
+    <g font-size="12" font-weight="700" fill="#E8E9EB" text-anchor="end">
+      <text x="318" y="156">$3.50</text>
+      <text x="318" y="206">$3.50</text>
+      <text x="318" y="256">$3.50</text>
+    </g>
+    <text x="24" y="296" font-size="11" fill="#9BA0A8">gray = growing history · caching makes the repo about</text>
+    <text x="24" y="312" font-size="11" fill="#9BA0A8">10× cheaper to re-read, and it still fills the window</text>
+    <text x="24" y="340" font-size="12" font-weight="700" fill="#B5822A">≈ $140 per 40-turn session, uncached</text>
+
+    <!-- RIGHT: query -->
+    <text x="342" y="98" font-size="12" font-weight="700" fill="#45A87D">QUERY: repo on disk</text>
+    <text x="342" y="114" font-size="11" fill="#9BA0A8">agent greps, reads only the working set</text>
+
+    <g font-size="11" fill="#9BA0A8">
+      <text x="342" y="156">t1</text>
+      <text x="342" y="206">t2</text>
+      <text x="342" y="256">t3</text>
+    </g>
+    <g fill="#6B7FE3">
+      <rect x="364" y="140" width="6" height="24" rx="2"/>
+      <rect x="364" y="190" width="6" height="24" rx="2"/>
+      <rect x="364" y="240" width="6" height="24" rx="2"/>
+    </g>
+    <g font-size="11" fill="#9BA0A8">
+      <text x="378" y="156">greps, reads 3 files (≈20k)</text>
+      <text x="378" y="206">different files this turn (≈20k)</text>
+      <text x="378" y="256">one file + a diff (≈20k)</text>
+    </g>
+    <g font-size="12" font-weight="700" fill="#E8E9EB" text-anchor="end">
+      <text x="636" y="156">$0.10</text>
+      <text x="636" y="206">$0.10</text>
+      <text x="636" y="256">$0.10</text>
+    </g>
+    <text x="342" y="296" font-size="11" fill="#9BA0A8">the window holds the current step;</text>
+    <text x="342" y="312" font-size="11" fill="#9BA0A8">the disk holds everything else</text>
+    <text x="342" y="340" font-size="12" font-weight="700" fill="#45A87D">≈ $4 in repo reads per 40-turn session</text>
+
+    <text x="24" y="368" font-size="10" fill="#5A5F68">arithmetic from public list prices ($5 / 1M input tokens) — illustrative, not a measurement</text>
+    <text x="24" y="384" font-size="10" fill="#5A5F68">both columns count the repo payload only; conversation history grows and re-bills on both sides</text>
+  </g>
+</svg>
