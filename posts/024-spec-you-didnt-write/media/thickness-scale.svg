@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="360" viewBox="0 0 660 360">
+  <rect width="660" height="360" fill="#08090A"/>
+  <text x="30" y="36" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="#E4E5E9">How thick should the spec be?</text>
+  <text x="30" y="56" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#B9BEC6">Five stops on one dial. Writing effort rises to the right; so does the price of a wrong default.</text>
+
+  <!-- rail -->
+  <line x1="60" y1="180" x2="608" y2="180" stroke="#1E2630" stroke-width="3"/>
+  <!-- arrowhead -->
+  <path d="M 608 180 l -9 -5 v 10 z" fill="#1E2630"/>
+
+  <!-- stop 1 (above) -->
+  <circle cx="85" cy="180" r="6" fill="#6B7FE3"/>
+  <line x1="85" y1="174" x2="85" y2="152" stroke="#1E2630" stroke-width="1.5"/>
+  <text x="85" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#E4E5E9" text-anchor="middle">One line</text>
+  <text x="85" y="134" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">you accept it by using it;</text>
+  <text x="85" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">corpus on your side</text>
+
+  <!-- stop 2 (below, ours) -->
+  <circle cx="216" cy="180" r="6" fill="#45A87D"/>
+  <line x1="216" y1="186" x2="216" y2="208" stroke="#1E2630" stroke-width="1.5"/>
+  <text x="216" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#E4E5E9" text-anchor="middle">+ the forbidden move</text>
+  <text x="216" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">one negative constraint deletes</text>
+  <text x="216" y="252" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">the priciest wrong guess</text>
+
+  <!-- stop 3 (above, ours) -->
+  <circle cx="347" cy="180" r="6" fill="#45A87D"/>
+  <line x1="347" y1="174" x2="347" y2="152" stroke="#1E2630" stroke-width="1.5"/>
+  <text x="347" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#E4E5E9" text-anchor="middle">Three acceptance lines</text>
+  <text x="347" y="134" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">outcomes, observable from outside;</text>
+  <text x="347" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">methods stay the agent's call</text>
+
+  <!-- stop 4 (below) -->
+  <circle cx="478" cy="180" r="6" fill="#6B7FE3"/>
+  <line x1="478" y1="186" x2="478" y2="208" stroke="#1E2630" stroke-width="1.5"/>
+  <text x="478" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#E4E5E9" text-anchor="middle">Interface first</text>
+  <text x="478" y="240" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">the type-checker enforces it,</text>
+  <text x="478" y="252" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">your attention span doesn't have to</text>
+
+  <!-- stop 5 (above) -->
+  <circle cx="595" cy="180" r="6" fill="#B5822A"/>
+  <line x1="595" y1="174" x2="595" y2="152" stroke="#1E2630" stroke-width="1.5"/>
+  <text x="580" y="118" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" fill="#E4E5E9" text-anchor="middle">Full document</text>
+  <text x="580" y="134" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">invariants, failure modes; anything</text>
+  <text x="580" y="146" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#8A8F98" text-anchor="middle">irreversible starts here</text>
+
+  <!-- rail end labels -->
+  <text x="60" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#5A6069">thin: a wrong guess costs one redispatch</text>
+  <text x="608" y="200" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#5A6069" text-anchor="end">thick: a wrong default costs a weekend</text>
+
+  <!-- legend for green -->
+  <circle cx="36" cy="306" r="5" fill="#45A87D"/>
+  <text x="48" y="310" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#B9BEC6">where most of our dispatches ended up (we expected the ends, not the middle)</text>
+
+  <!-- footnote -->
+  <text x="30" y="340" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#5A6069">Our dispatch heuristic from months of daily use. No measurements behind it.</text>
+</svg>

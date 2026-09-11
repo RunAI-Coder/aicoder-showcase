@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="410" viewBox="0 0 660 410" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="660" height="410" fill="#FFFFFF"/>
+
+  <!-- title block -->
+  <text x="20" y="30" font-size="15" font-weight="600" fill="#1F2328">Same references, one response shape changed</text>
+  <text x="20" y="50" font-size="11.5" fill="#57606A">Follow-up file reads per episode on a multi-file rename. Both LSP arms used the same semantic backend</text>
+  <text x="20" y="65" font-size="11.5" fill="#57606A">and returned the same reference set; only what came back to the model differed.</text>
+
+  <!-- axis caption -->
+  <text x="142" y="87" font-size="9.5" fill="#8B949E" text-anchor="end">reads / episode</text>
+
+  <!-- grid -->
+  <g stroke="#D0D7DE" stroke-width="1">
+    <line x1="150" y1="96" x2="510" y2="96"/>
+    <line x1="150" y1="151" x2="510" y2="151"/>
+    <line x1="150" y1="206" x2="510" y2="206"/>
+    <line x1="150" y1="261" x2="510" y2="261"/>
+    <line x1="150" y1="316" x2="510" y2="316" stroke="#8B949E"/>
+  </g>
+  <g font-size="10" fill="#8B949E" text-anchor="end">
+    <text x="142" y="100">16</text>
+    <text x="142" y="155">12</text>
+    <text x="142" y="210">8</text>
+    <text x="142" y="265">4</text>
+    <text x="142" y="320">0</text>
+  </g>
+
+  <!-- grep reference line: 4.3 reads -> y = 316 - 4.3*13.75 = 256.9 -->
+  <line x1="150" y1="256.9" x2="510" y2="256.9" stroke="#8B949E" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="278" y="251" font-size="10" fill="#57606A" text-anchor="middle">grep, for reference: 4.3 reads (pass@1 1.00, 2,451 tokens)</text>
+
+  <!-- slope: 15.2 -> 3.2 ; y = 316 - v*13.75 -->
+  <line x1="180" y1="107" x2="480" y2="272" stroke="#0072B2" stroke-width="2.5"/>
+  <circle cx="180" cy="107" r="5.5" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+  <circle cx="480" cy="272" r="5.5" fill="#0072B2" stroke="#FFFFFF" stroke-width="2"/>
+
+  <!-- point labels -->
+  <text x="192" y="90" font-size="10" fill="#57606A">pass@1 0.67 · 4,131 tokens · site recall 0.930</text>
+  <text x="192" y="104" font-size="11" font-weight="600" fill="#1F2328">15.2 reads</text>
+
+  <text x="492" y="270" font-size="11" font-weight="600" fill="#1F2328">3.2 reads</text>
+  <text x="492" y="284" font-size="10" fill="#57606A">pass@1 0.83 · 3,336 tokens</text>
+  <text x="492" y="297" font-size="10" fill="#57606A">site recall 0.958</text>
+
+  <!-- column labels -->
+  <text x="180" y="338" font-size="11" fill="#1F2328" text-anchor="middle">LSP result: location only</text>
+  <text x="180" y="352" font-size="10" fill="#8B949E" text-anchor="middle">(file, line, column)</text>
+  <text x="480" y="338" font-size="11" fill="#1F2328" text-anchor="middle">LSP result: location + source</text>
+  <text x="480" y="352" font-size="10" fill="#8B949E" text-anchor="middle">(±2 lines attached to each reference)</text>
+
+  <!-- callout card -->
+  <rect x="414" y="140" width="230" height="64" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <text x="426" y="159" font-size="11" font-weight="600" fill="#1F2328">Backend unchanged.</text>
+  <text x="426" y="174" font-size="11" font-weight="600" fill="#1F2328">Response shape changed.</text>
+  <text x="426" y="193" font-size="10" fill="#57606A">Reads −12.0 · pass@1 +0.16 · tokens −795</text>
+
+  <!-- footnotes -->
+  <text x="20" y="374" font-size="9.5" fill="#8B949E">Data: Pengcheng Xu, AgentConnect pilot (blog 2026-08-12; repo agentconnect-md/lsp-vs-grep-token-study). Not our measurement.</text>
+  <text x="20" y="388" font-size="9.5" fill="#8B949E">Opus 4.8, pyright with a pre-warmed index, two to three rollouts per cell; pilot scale. Tokens are per-episode context tokens.</text>
+  <text x="20" y="402" font-size="9.5" fill="#8B949E">Chart layout is our rendering of the study's table.</text>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" width="660" height="380" role="img" aria-label="Where git's safety net catches agent damage: committed history is fully covered, the uncommitted working tree is outside the net until you commit, and side effects beyond the repository were never in scope">
+  <rect width="660" height="380" fill="#FFFFFF"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="32" font-size="17" font-weight="600" fill="#1F2328">Where the net catches</text>
+    <text x="24" y="51" font-size="11" fill="#57606A">what an agent can damage, sorted by how recoverable it is</text>
+
+    <!-- zone 1: committed history -->
+    <rect x="24" y="72" width="196" height="228" rx="8" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.6"/>
+    <text x="40" y="98" font-size="12.5" font-weight="600" fill="#0072B2">committed history</text>
+    <text x="40" y="122" font-size="10.5" fill="#1F2328">one diff to inspect,</text>
+    <text x="40" y="137" font-size="10.5" fill="#1F2328">one reset to discard</text>
+    <rect x="40" y="152" width="164" height="58" rx="5" fill="#FFFFFF" stroke="#D0D7DE"/>
+    <text x="52" y="171" font-size="10" fill="#57606A">under that: the reflog</text>
+    <text x="52" y="186" font-size="10" fill="#57606A">90 days reachable /</text>
+    <text x="52" y="200" font-size="10" fill="#57606A">30 days unreachable</text>
+    <text x="40" y="238" font-size="10.5" fill="#0072B2">deleted branches, hard resets,</text>
+    <text x="40" y="253" font-size="10.5" fill="#0072B2">botched rebases: recoverable</text>
+    <text x="40" y="284" font-size="10" font-weight="600" fill="#0072B2">✓ inside the net</text>
+
+    <!-- zone 2: working tree -->
+    <rect x="232" y="72" width="196" height="228" rx="8" fill="#F6F8FA" stroke="#D55E00" stroke-width="1.6" stroke-dasharray="6 4"/>
+    <text x="248" y="98" font-size="12.5" font-weight="600" fill="#D55E00">uncommitted work</text>
+    <text x="248" y="122" font-size="10.5" fill="#1F2328">untracked files,</text>
+    <text x="248" y="137" font-size="10.5" fill="#1F2328">edits since last commit</text>
+    <text x="248" y="168" font-size="10.5" fill="#57606A">an agent deleting these</text>
+    <text x="248" y="183" font-size="10.5" fill="#57606A">performs a real deletion</text>
+    <text x="248" y="238" font-size="10.5" fill="#D55E00">one add-and-commit moves</text>
+    <text x="248" y="253" font-size="10.5" fill="#D55E00">all of it into zone 1</text>
+    <text x="248" y="284" font-size="10" font-weight="600" fill="#D55E00">△ outside until you commit</text>
+
+    <!-- zone 3: beyond the repo -->
+    <rect x="440" y="72" width="196" height="228" rx="8" fill="#FFFFFF" stroke="#8B949E" stroke-width="1.4"/>
+    <text x="456" y="98" font-size="12.5" font-weight="600" fill="#57606A">beyond the repository</text>
+    <text x="456" y="122" font-size="10.5" fill="#1F2328">dropped database tables,</text>
+    <text x="456" y="137" font-size="10.5" fill="#1F2328">paid API calls, deployments</text>
+    <text x="456" y="168" font-size="10.5" fill="#57606A">git has no opinion</text>
+    <text x="456" y="183" font-size="10.5" fill="#57606A">about any of these</text>
+    <text x="456" y="238" font-size="10.5" fill="#57606A">this is permission-layer</text>
+    <text x="456" y="253" font-size="10.5" fill="#57606A">territory, never git's</text>
+    <text x="456" y="284" font-size="10" font-weight="600" fill="#57606A">✗ never in scope</text>
+
+    <!-- net line -->
+    <path d="M24,316 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 20,0 q10,8 16,0" stroke="#0072B2" stroke-width="1.6" fill="none"/>
+    <text x="24" y="340" font-size="10" fill="#0072B2">the net: version control</text>
+
+    <text x="24" y="366" font-size="9" fill="#8B949E">concept diagram — coverage as described in git docs and our runs; illustrative, reflog day-counts are git defaults as of 2026-08</text>
+  </g>
+</svg>

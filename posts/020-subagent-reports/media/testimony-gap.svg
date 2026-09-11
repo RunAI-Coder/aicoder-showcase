@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="430" viewBox="0 0 660 430" role="img" aria-label="What happened in the subagent versus the single message the main loop receives">
+  <rect width="660" height="430" fill="#08090A"/>
+  <text x="330" y="36" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="600" fill="#E8EAF0">The testimony gap</text>
+  <text x="330" y="56" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#9AA1AD">what happened, and what the main loop gets to see</text>
+
+  <!-- left: subagent transcript -->
+  <rect x="42" y="84" width="256" height="286" rx="10" fill="none" stroke="#45A87D" stroke-width="2"/>
+  <text x="170" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAF0">inside the subagent</text>
+  <g font-family="Consolas, monospace" font-size="10.5" fill="#9AA1AD">
+    <text x="60" y="136">grep "handler" → 0 hits</text>
+    <text x="60" y="156">grep "Handler" → 41 hits</text>
+    <text x="60" y="176">read config.py (skimmed)</text>
+    <text x="60" y="196" fill="#C0685E">pytest → 2 failed</text>
+    <text x="60" y="216" fill="#C0685E">pytest --lf → 1 failed</text>
+    <text x="60" y="236">pytest --lf → passed</text>
+    <text x="60" y="256">edit retry_policy.py</text>
+    <text x="60" y="276">pytest → passed</text>
+    <text x="60" y="296">edge case → "out of scope"</text>
+    <text x="60" y="316">…31 more tool calls</text>
+  </g>
+  <text x="170" y="352" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#6E7681">stays in its context; never re-read by the main loop</text>
+
+  <!-- one-way door -->
+  <line x1="306" y1="226" x2="392" y2="226" stroke="#B5822A" stroke-width="2"/>
+  <path d="M392,226 l-10,-5 v10 z" fill="#B5822A"/>
+  <text x="349" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#B5822A">one-way door</text>
+
+  <!-- right: what arrives -->
+  <rect x="400" y="168" width="218" height="116" rx="10" fill="none" stroke="#6B7FE3" stroke-width="2"/>
+  <text x="509" y="196" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E8EAF0">what the main loop gets</text>
+  <text x="509" y="226" text-anchor="middle" font-family="Consolas, monospace" font-size="11.5" fill="#E8EAF0">"Done. All tests pass."</text>
+  <text x="509" y="256" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#9AA1AD">compressed by the witness,</text>
+  <text x="509" y="272" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#9AA1AD">who is also the defendant</text>
+
+  <text x="330" y="412" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#6E7681">Illustrative transcript; mechanics per Claude Code sub-agents docs (only the summary returns by default).</text>
+</svg>

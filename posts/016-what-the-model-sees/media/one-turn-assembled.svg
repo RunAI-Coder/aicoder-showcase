@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" width="660" height="430" role="img" aria-label="One turn, assembled: the request document a harness compiles each turn, from tool definitions at top to the newest user message at bottom, with a cache-stable top and a growing tail">
+  <rect width="660" height="430" fill="#08090A"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="30" font-size="17" font-weight="600" fill="#E8E9EB">One turn, assembled</text>
+    <text x="24" y="49" font-size="11" fill="#9BA0A8">the document the harness compiles seconds before the model answers</text>
+
+    <!-- document blocks -->
+    <g>
+      <rect x="60" y="68" width="360" height="46" rx="4" fill="#10131A" stroke="#6B7FE3" stroke-width="1.2"/>
+      <text x="74" y="89" font-size="12" fill="#E8E9EB">tool definitions</text>
+      <text x="74" y="105" font-size="10" fill="#9BA0A8">every tool the agent may call, schemas included</text>
+
+      <rect x="60" y="118" width="360" height="34" rx="4" fill="#10131A" stroke="#6B7FE3" stroke-width="1.2"/>
+      <text x="74" y="139" font-size="12" fill="#E8E9EB">harness system prompt</text>
+      <text x="406" y="139" font-size="10" fill="#5A5F68" text-anchor="end">theirs</text>
+
+      <rect x="60" y="156" width="360" height="34" rx="4" fill="#10131A" stroke="#45A87D" stroke-width="1.2"/>
+      <text x="74" y="177" font-size="12" fill="#E8E9EB">project rules files</text>
+      <text x="406" y="177" font-size="10" fill="#5A5F68" text-anchor="end">yours</text>
+
+      <!-- session history block with inner edits -->
+      <rect x="60" y="194" width="360" height="130" rx="4" fill="#0D0F14" stroke="#1C1F26" stroke-width="1.2"/>
+      <text x="74" y="213" font-size="12" fill="#E8E9EB">session history</text>
+      <text x="406" y="213" font-size="10" fill="#5A5F68" text-anchor="end">edited</text>
+
+      <rect x="74" y="222" width="332" height="26" rx="3" fill="#1A140A" stroke="#B5822A" stroke-width="1"/>
+      <text x="84" y="239" font-size="10.5" fill="#B5822A">compaction summary — stands in for older turns</text>
+
+      <rect x="74" y="254" width="332" height="20" rx="3" fill="none" stroke="#5A5F68" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="84" y="268" font-size="10.5" fill="#9BA0A8">[tool result removed] — placeholder left by clearing</text>
+
+      <rect x="74" y="280" width="332" height="16" rx="3" fill="#10131A" stroke="#2A2F3A" stroke-width="1"/>
+      <text x="84" y="292" font-size="10.5" fill="#9BA0A8">recent turns, kept verbatim</text>
+
+      <rect x="74" y="300" width="332" height="16" rx="3" fill="#1A140A" stroke="#B5822A" stroke-width="1"/>
+      <text x="84" y="312" font-size="10.5" fill="#B5822A">injected reminder — nobody typed this</text>
+
+      <rect x="60" y="332" width="360" height="34" rx="4" fill="#0E1712" stroke="#45A87D" stroke-width="1.6"/>
+      <text x="74" y="353" font-size="12" fill="#E8E9EB">your newest message</text>
+      <text x="406" y="353" font-size="10" fill="#5A5F68" text-anchor="end">the part you saw yourself write</text>
+    </g>
+
+    <!-- cache zone brackets -->
+    <g>
+      <path d="M446,68 h10 v122 h-10" fill="none" stroke="#6B7FE3" stroke-width="1.4"/>
+      <text x="468" y="122" font-size="11" font-weight="600" fill="#6B7FE3">stable prefix</text>
+      <text x="468" y="138" font-size="10" fill="#9BA0A8">cached if untouched:</text>
+      <text x="468" y="152" font-size="10" fill="#9BA0A8">the cheap part</text>
+
+      <path d="M446,194 h10 v172 h-10" fill="none" stroke="#B5822A" stroke-width="1.4"/>
+      <text x="468" y="258" font-size="11" font-weight="600" fill="#B5822A">growing tail</text>
+      <text x="468" y="274" font-size="10" fill="#9BA0A8">new tokens bill full price;</text>
+      <text x="468" y="288" font-size="10" fill="#9BA0A8">the untouched part</text>
+      <text x="468" y="302" font-size="10" fill="#9BA0A8">can still cache</text>
+    </g>
+
+    <!-- reading order arrow -->
+    <line x1="40" y1="72" x2="40" y2="358" stroke="#2A2F3A" stroke-width="1.2"/>
+    <path d="M40,362 l-4,-7 h8 z" fill="#2A2F3A"/>
+    <text x="36" y="220" font-size="9.5" fill="#5A5F68" text-anchor="middle" transform="rotate(-90 36 220)">read top to bottom, every turn</text>
+
+    <text x="24" y="416" font-size="9" fill="#5A5F68">concept diagram — stack as observed in the harnesses we run; ordering illustrative</text>
+  </g>
+</svg>

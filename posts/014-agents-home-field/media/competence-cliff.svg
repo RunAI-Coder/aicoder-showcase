@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" width="660" height="400" role="img" aria-label="The competence cliff: agent competence falls as public code for a stack gets scarcer, while its confidence stays flat, leaving an unwarned gap">
+  <rect width="660" height="400" fill="#08090A"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="38" font-size="20" font-weight="600" fill="#E8E9EB">The competence cliff</text>
+    <text x="24" y="60" font-size="12" fill="#9BA0A8">competence tracks the corpus; confidence barely moves</text>
+
+    <!-- plot frame -->
+    <line x1="70" y1="90" x2="70" y2="325" stroke="#1C1F26" stroke-width="1"/>
+    <line x1="70" y1="325" x2="620" y2="325" stroke="#1C1F26" stroke-width="1"/>
+
+    <!-- gap shading between confidence and competence, right side -->
+    <path d="M340,122 L620,122 L620,298 C520,290 420,225 340,160 Z" fill="#B5822A" opacity="0.10"/>
+    <text x="480" y="200" font-size="11" fill="#B5822A" text-anchor="middle">the gap with no warning light</text>
+
+    <!-- confidence: flat -->
+    <path d="M70,120 L620,122" stroke="#B5822A" stroke-width="2" fill="none"/>
+    <text x="616" y="110" font-size="12" font-weight="600" fill="#B5822A" text-anchor="end">confidence (nearly flat)</text>
+
+    <!-- competence: gentle then cliff -->
+    <path d="M70,128 C180,132 280,142 340,160 C420,185 470,255 520,280 C560,295 600,298 620,298" stroke="#6B7FE3" stroke-width="2.5" fill="none"/>
+    <text x="560" y="318" font-size="12" font-weight="600" fill="#6B7FE3" text-anchor="end">competence</text>
+
+    <!-- y hints -->
+    <text x="60" y="126" font-size="10.5" fill="#9BA0A8" text-anchor="end">solid</text>
+    <text x="60" y="300" font-size="10.5" fill="#9BA0A8" text-anchor="end">invents APIs</text>
+
+    <!-- x category ticks -->
+    <g font-size="11" fill="#9BA0A8" text-anchor="middle">
+      <text x="110" y="345">React</text>
+      <text x="250" y="345">Django</text>
+      <text x="410" y="345">a niche framework</text>
+      <text x="570" y="345">your internal DSL</text>
+    </g>
+    <text x="345" y="368" font-size="11" fill="#5A5F68" text-anchor="middle">amount of public code in the training corpus (decreasing →)</text>
+
+    <text x="24" y="390" font-size="10" fill="#5A5F68">concept diagram — shapes illustrative, not measured</text>
+  </g>
+</svg>
