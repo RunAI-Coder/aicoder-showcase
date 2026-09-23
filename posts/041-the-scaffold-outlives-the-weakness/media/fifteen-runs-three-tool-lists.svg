@@ -1,0 +1,84 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='660' height='340' viewBox='0 0 660 340' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif'>
+<title>Fifteen runs of one small task under three harness configurations: cost, turns and tool calls per run</title>
+<rect width='660' height='340' fill='#FFFFFF'/>
+<text x='24.0' y='30.0' font-size='17' fill='#1F2328' text-anchor='start' font-weight='600' >Fifteen runs, one task, three configurations</text>
+<text x='24.0' y='50.0' font-size='11.5' fill='#57606A' text-anchor='start' font-weight='normal' >Each mark is one run. Same model, same repository, same request; only the tool list offered to the model differs.</text>
+<text x='283.0' y='74.0' font-size='10.5' fill='#1F2328' text-anchor='middle' font-weight='600' >Cost per run ($)</text>
+<line x1='214' y1='112' x2='352' y2='112' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='312.3' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='306.3' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='305.0' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='304.5' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='314.6' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='352.0' y='103.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 0.40</text>
+<line x1='214' y1='172' x2='352' y2='172' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='315.7' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='334.0' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='326.9' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='303.1' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='312.1' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='352.0' y='163.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 0.45</text>
+<line x1='214' y1='232' x2='352' y2='232' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='281.7' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='283.3' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='278.5' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='282.1' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='282.8' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='352.0' y='223.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 0.30</text>
+<text x='433.0' y='74.0' font-size='10.5' fill='#1F2328' text-anchor='middle' font-weight='600' >Tool calls</text>
+<line x1='364' y1='112' x2='502' y2='112' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='462.8' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='476.9' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='476.9' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='476.9' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='469.9' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='502.0' y='103.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 16</text>
+<line x1='364' y1='172' x2='502' y2='172' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='476.9' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='484.0' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='476.9' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='476.9' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='462.8' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='502.0' y='163.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 16</text>
+<line x1='364' y1='232' x2='502' y2='232' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='427.5' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='413.4' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='413.4' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='427.5' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='427.5' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='502.0' y='223.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 9</text>
+<text x='583.0' y='74.0' font-size='10.5' fill='#1F2328' text-anchor='middle' font-weight='600' >Wall time (s)</text>
+<line x1='514' y1='112' x2='652' y2='112' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='590.5' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='590.5' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='590.5' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='583.0' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='579.2' cy='112' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='652.0' y='103.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 81</text>
+<line x1='514' y1='172' x2='652' y2='172' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='597.1' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='596.2' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='594.3' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='571.6' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='580.1' cy='172' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='652.0' y='163.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 85</text>
+<line x1='514' y1='232' x2='652' y2='232' stroke='#D0D7DE' stroke-width='1'/>
+<circle cx='634.0' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='604.7' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='604.7' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='600.9' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<circle cx='585.8' cy='232' r='5' fill='#009E73' fill-opacity='0.75' stroke='#FFFFFF' stroke-width='1'/>
+<text x='652.0' y='223.0' font-size='9' fill='#57606A' text-anchor='end' font-weight='normal' >median 96</text>
+<text x='24.0' y='116.0' font-size='10.5' fill='#1F2328' text-anchor='start' font-weight='normal' >Default tool set</text>
+<text x='24.0' y='130.0' font-size='9' fill='#8B949E' text-anchor='start' font-weight='normal' >5 of 5 runs passed all four checks</text>
+<text x='24.0' y='176.0' font-size='10.5' fill='#1F2328' text-anchor='start' font-weight='normal' >Default + task-tracking tools switched back on</text>
+<text x='24.0' y='190.0' font-size='9' fill='#8B949E' text-anchor='start' font-weight='normal' >5 of 5 runs passed all four checks</text>
+<text x='24.0' y='236.0' font-size='10.5' fill='#1F2328' text-anchor='start' font-weight='normal' >Bash only</text>
+<text x='24.0' y='250.0' font-size='9' fill='#8B949E' text-anchor='start' font-weight='normal' >5 of 5 runs passed all four checks</text>
+<circle cx='30' cy='286' r='5' fill='#009E73' fill-opacity='0.75'/>
+<text x='40.0' y='290.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >passed all four checks (tests, JSON output, README, new test)</text>
+<circle cx='360' cy='286' r='5' fill='#D55E00' fill-opacity='0.75'/>
+<text x='370.0' y='290.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >missed at least one</text>
+<text x='24.0' y='316.0' font-size='8.5' fill='#8B949E' text-anchor='start' font-weight='normal' >Our measurement: 15 headless runs on 21 September 2026, one model, one harness, seven Python files plus a README, cost as reported by the harness.</text>
+<text x='24.0' y='328.0' font-size='8.5' fill='#8B949E' text-anchor='start' font-weight='normal' >Five runs per configuration: read the marks as counts.</text>
+</svg>

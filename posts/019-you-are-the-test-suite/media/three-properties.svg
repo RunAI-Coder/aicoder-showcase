@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 340" width="660" height="340" role="img" aria-label="Why the one-sentence game prompt lands: densest training corpus, a task with natural edges, and verification that collapses into playing">
+  <rect width="660" height="340" fill="#FFFFFF"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="32" font-size="17" font-weight="600" fill="#1F2328">Why the game prompt lands</text>
+    <text x="24" y="51" font-size="11" fill="#57606A">three boring properties, stacked — the third is the one worth stealing</text>
+
+    <rect x="24" y="70" width="612" height="64" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.4"/>
+    <text x="42" y="96" font-size="12.5" font-weight="600" fill="#1F2328">1 · deepest home field</text>
+    <text x="42" y="116" font-size="11" fill="#57606A">tutorial games are among the most-rewritten code on the internet: the corpus has rehearsed the answer</text>
+
+    <rect x="24" y="144" width="612" height="64" rx="8" fill="#F6F8FA" stroke="#D0D7DE" stroke-width="1.4"/>
+    <text x="42" y="170" font-size="12.5" font-weight="600" fill="#1F2328">2 · the task has edges</text>
+    <text x="42" y="190" font-size="11" fill="#57606A">one file, no dependencies, no integration surface — worst case is a tab you close</text>
+
+    <rect x="24" y="218" width="612" height="70" rx="8" fill="#FFFFFF" stroke="#D55E00" stroke-width="1.8"/>
+    <text x="42" y="244" font-size="12.5" font-weight="600" fill="#D55E00">3 · verification collapses into experience</text>
+    <text x="42" y="264" font-size="11" fill="#1F2328">the acceptance check is playing for two minutes: fast, pleasant, and blind to the implementation</text>
+    <text x="42" y="280" font-size="10" fill="#8B949E">"you become the verification loop" — here, that job is called playing</text>
+
+    <text x="24" y="322" font-size="9" fill="#8B949E">concept diagram — illustrative; quote per Anthropic best-practices doc (as of 2026-08)</text>
+  </g>
+</svg>

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="400" viewBox="0 0 660 400" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="660" height="400" fill="#08090A"/>
+  <text x="20" y="28" font-size="15" font-weight="700" fill="#E4E5E9">Reasoning written after the answer scores like no reasoning</text>
+  <text x="20" y="44" font-size="9.5" fill="#B9BEC6">Solve rate (%), LaMDA 137B, few-shot prompts. The two reasoning bars differ only in where the reasoning is written.</text>
+
+  <!-- legend -->
+  <rect x="20" y="56" width="10" height="10" fill="#8A8F98"/><text x="35" y="65" font-size="9.5" fill="#B9BEC6">No reasoning (standard prompting)</text>
+  <rect x="215" y="56" width="10" height="10" fill="#B5822A"/><text x="230" y="65" font-size="9.5" fill="#B9BEC6">Reasoning written after the answer</text>
+  <rect x="420" y="56" width="10" height="10" fill="#6B7FE3"/><text x="435" y="65" font-size="9.5" fill="#B9BEC6">Reasoning written first (chain of thought)</text>
+
+  <!-- plot: y(v) = 330 - v*4.3333 ; 0 -> 330, 60 -> 70 -->
+  <line x1="60" y1="330" x2="640" y2="330" stroke="#2A323C"/>
+  <line x1="60" y1="243.3" x2="640" y2="243.3" stroke="#1E2630"/>
+  <line x1="60" y1="156.7" x2="640" y2="156.7" stroke="#1E2630"/>
+  <line x1="60" y1="70" x2="640" y2="70" stroke="#1E2630"/>
+  <text x="54" y="333" font-size="9" fill="#8A8F98" text-anchor="end">0</text>
+  <text x="54" y="246" font-size="9" fill="#8A8F98" text-anchor="end">20</text>
+  <text x="54" y="160" font-size="9" fill="#8A8F98" text-anchor="end">40</text>
+  <text x="54" y="73" font-size="9" fill="#8A8F98" text-anchor="end">60</text>
+
+  <!-- GSM8K: 6.5 / 6.1 / 14.3  (cx 132.5) -->
+  <rect x="75.5" y="301.8" width="34" height="28.2" fill="#8A8F98"/>
+  <rect x="115.5" y="303.6" width="34" height="26.4" fill="#B5822A"/>
+  <rect x="155.5" y="268.0" width="34" height="62.0" fill="#6B7FE3"/>
+  <text x="92.5" y="296" font-size="9.5" fill="#B9BEC6" text-anchor="middle">6.5</text>
+  <text x="132.5" y="298" font-size="9.5" fill="#B9BEC6" text-anchor="middle">6.1</text>
+  <text x="172.5" y="262" font-size="9.5" fill="#E4E5E9" text-anchor="middle">14.3</text>
+  <text x="132.5" y="348" font-size="10" fill="#B9BEC6" text-anchor="middle">GSM8K</text>
+
+  <!-- SVAMP: 29.5 / 30.7 / 36.7  (cx 277.5) -->
+  <rect x="220.5" y="202.2" width="34" height="127.8" fill="#8A8F98"/>
+  <rect x="260.5" y="197.0" width="34" height="133.0" fill="#B5822A"/>
+  <rect x="300.5" y="171.0" width="34" height="159.0" fill="#6B7FE3"/>
+  <text x="237.5" y="196" font-size="9.5" fill="#B9BEC6" text-anchor="middle">29.5</text>
+  <text x="277.5" y="191" font-size="9.5" fill="#B9BEC6" text-anchor="middle">30.7</text>
+  <text x="317.5" y="165" font-size="9.5" fill="#E4E5E9" text-anchor="middle">36.7</text>
+  <text x="277.5" y="348" font-size="10" fill="#B9BEC6" text-anchor="middle">SVAMP</text>
+
+  <!-- ASDiv: 40.1 / 38.6 / 46.6  (cx 422.5) -->
+  <rect x="365.5" y="156.2" width="34" height="173.8" fill="#8A8F98"/>
+  <rect x="405.5" y="162.7" width="34" height="167.3" fill="#B5822A"/>
+  <rect x="445.5" y="128.1" width="34" height="201.9" fill="#6B7FE3"/>
+  <text x="382.5" y="150" font-size="9.5" fill="#B9BEC6" text-anchor="middle">40.1</text>
+  <text x="422.5" y="157" font-size="9.5" fill="#B9BEC6" text-anchor="middle">38.6</text>
+  <text x="462.5" y="122" font-size="9.5" fill="#E4E5E9" text-anchor="middle">46.6</text>
+  <text x="422.5" y="348" font-size="10" fill="#B9BEC6" text-anchor="middle">ASDiv</text>
+
+  <!-- MAWPS: 43.2 / 43.6 / 57.9  (cx 567.5) -->
+  <rect x="510.5" y="142.8" width="34" height="187.2" fill="#8A8F98"/>
+  <rect x="550.5" y="141.1" width="34" height="188.9" fill="#B5822A"/>
+  <rect x="590.5" y="79.1" width="34" height="250.9" fill="#6B7FE3"/>
+  <text x="527.5" y="137" font-size="9.5" fill="#B9BEC6" text-anchor="middle">43.2</text>
+  <text x="567.5" y="135" font-size="9.5" fill="#B9BEC6" text-anchor="middle">43.6</text>
+  <text x="607.5" y="73" font-size="9.5" fill="#E4E5E9" text-anchor="middle">57.9</text>
+  <text x="567.5" y="348" font-size="10" fill="#B9BEC6" text-anchor="middle">MAWPS</text>
+
+  <text x="20" y="372" font-size="8.5" fill="#5A6069">Data: Wei et al., "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models" (2022), Appendix Table 6, LaMDA 137B. Not our measurement.</text>
+  <text x="20" y="386" font-size="8.5" fill="#5A6069">Standard deviations across exemplar orderings are 0.2 to 1.5 points and are omitted here. Layout ours.</text>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="400" viewBox="0 0 660 400" role="img" aria-label="Same request, two catalogs: eager loading sends the full tool catalog into context; deferred loading sends only a search tool plus a few daily drivers into context">
+  <rect width="660" height="400" fill="#F6F8FA"/>
+  <text x="330" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#1F2328">Same request, two catalogs</text>
+  <text x="330" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#57606A">what enters the model's context before any work happens</text>
+
+  <!-- eager bar -->
+  <text x="60" y="96" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1F2328">eager loading</text>
+  <rect x="60" y="106" width="470" height="46" rx="6" fill="#0072B2" opacity="0.92"/>
+  <rect x="534" y="106" width="34" height="46" rx="6" fill="#D55E00"/>
+  <text x="295" y="133" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12.5" fill="#FFFFFF">full catalog — every mounted tool's schema (docs' example: ~55k tokens)</text>
+  <text x="580" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#57606A">your</text>
+  <text x="580" y="141" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#57606A">question</text>
+
+  <!-- deferred bar -->
+  <text x="60" y="204" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" fill="#1F2328">deferred loading (tool search)</text>
+  <rect x="60" y="214" width="42" height="46" rx="6" fill="#009E73"/>
+  <rect x="106" y="214" width="46" height="46" rx="6" fill="#0072B2" opacity="0.92"/>
+  <rect x="156" y="214" width="34" height="46" rx="6" fill="#D55E00"/>
+  <text x="81" y="241" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#FFFFFF">search</text>
+  <text x="129" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">3–5 daily</text>
+  <text x="129" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#FFFFFF">drivers</text>
+  <text x="200" y="241" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#57606A">your question — the rest of the catalog loads only when a search finds it</text>
+
+  <!-- annotations -->
+  <text x="60" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1F2328">The catalog re-enters context every turn of the session; the docs put the typical</text>
+  <text x="60" y="318" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#1F2328">definition-overhead reduction from deferring at "over 85 percent".</text>
+
+  <text x="60" y="368" font-family="Segoe UI, Arial, sans-serif" font-size="10.5" fill="#8B949E">Proportions illustrative. Numbers from Anthropic's tool-search docs (multiserver example) — not our measurement.</text>
+</svg>

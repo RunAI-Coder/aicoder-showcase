@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="330" viewBox="0 0 660 330" role="img" aria-label="Advisor gains shrink as the executor approaches the advisor: Haiku executor gains a great deal, Sonnet a few points, a frontier executor almost nothing">
+  <rect width="660" height="330" fill="#08090A"/>
+  <text x="330" y="34" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="600" fill="#E8EAF0">The gap is the product</text>
+  <text x="330" y="54" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11.5" fill="#9AA1AD">what a stronger advisor added on GPQA Diamond, by executor (qualitative, per the guide)</text>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="80" y="112" font-size="12.5" fill="#E8EAF0">Haiku 4.5 executor</text>
+    <rect x="250" y="96" width="255" height="26" rx="5" fill="#45A87D"/>
+    <text x="515" y="114" font-size="11" fill="#9AA1AD">"gained a great deal"</text>
+
+    <text x="80" y="172" font-size="12.5" fill="#E8EAF0">Sonnet 5 executor</text>
+    <rect x="250" y="156" width="96" height="26" rx="5" fill="#B5822A"/>
+    <text x="356" y="174" font-size="11" fill="#9AA1AD">"gained a few points"</text>
+
+    <text x="80" y="232" font-size="12.5" fill="#E8EAF0">frontier executor</text>
+    <rect x="250" y="216" width="14" height="26" rx="4" fill="#6E7681"/>
+    <text x="274" y="234" font-size="11" fill="#9AA1AD">"almost nothing"</text>
+  </g>
+
+  <text x="330" y="284" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#E8EAF0">The advisor can only hand over capability the executor lacks.</text>
+  <text x="330" y="312" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9.5" fill="#6E7681">Bar lengths illustrative — qualitative wording from Anthropic's cost-optimization guide, not our measurement.</text>
+</svg>

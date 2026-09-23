@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" width="660" height="240" font-family="-apple-system,'Segoe UI',sans-serif">
+  <rect x="0" y="0" width="660" height="240" fill="#08090A"/>
+  <text x="20" y="26" fill="#E4E5E9" font-size="14" font-weight="600">Same five-request task, two cache bills</text>
+  <text x="20" y="44" fill="#8A8F98" font-size="11.5">cache-write tokens · writes bill at a premium (1.25x to 2x list price)</text>
+
+  <text x="20" y="84" fill="#E4E5E9" font-size="12">byte-stable prefix · light harness</text>
+  <rect x="20" y="92" width="10" height="26" rx="3" fill="#45A87D"/>
+  <text x="38" y="109" fill="#E4E5E9" font-size="12" font-weight="600" font-family="ui-monospace,Consolas,monospace">1,003</text>
+
+  <text x="20" y="150" fill="#E4E5E9" font-size="12">prefix rewritten mid-session · heavyweight harness</text>
+  <rect x="20" y="158" width="560" height="26" rx="3" fill="#6B7FE3"/>
+  <text x="588" y="175" fill="#E4E5E9" font-size="12" font-weight="600" font-family="ui-monospace,Consolas,monospace">53,839</text>
+
+  <text x="580" y="132" fill="#8A8F98" font-size="11" text-anchor="end" font-style="italic">up to 54x the write volume, at identical work</text>
+
+  <text x="20" y="222" fill="#5C6068" font-size="10.5" font-family="ui-monospace,Consolas,monospace">Systima, July 2026 · a single mid-session rewrite alone burned 43k+ tokens at the premium rate</text>
+</svg>

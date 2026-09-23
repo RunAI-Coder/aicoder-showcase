@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="392" viewBox="0 0 660 392" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="660" height="392" fill="#08090A"/>
+
+  <text x="24" y="34" font-size="16" font-weight="700" fill="#E4E5E9">Where a skill enters the loop</text>
+  <text x="24" y="54" font-size="11.5" fill="#B9BEC6">Stations per the spec, Claude Code docs, and one August 2026 study; failure counts from that study</text>
+
+  <!-- connector line -->
+  <line x1="60" y1="118" x2="600" y2="118" stroke="#1E2630" stroke-width="2"/>
+
+  <!-- station 1 -->
+  <circle cx="90" cy="118" r="7" fill="#6B7FE3"/>
+  <text x="90" y="88" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Startup</text>
+  <text x="90" y="101" font-size="10" fill="#8A8F98" text-anchor="middle">name + description</text>
+  <rect x="26" y="134" width="128" height="70" rx="6" fill="#10161B" stroke="#1E2630"/>
+  <text x="90" y="153" font-size="10.5" fill="#B9BEC6" text-anchor="middle">~100 tokens per skill,</text>
+  <text x="90" y="167" font-size="10.5" fill="#B9BEC6" text-anchor="middle">every skill, every session</text>
+  <text x="90" y="191" font-size="10" fill="#8A8F98" text-anchor="middle">passive cost</text>
+
+  <!-- station 2 -->
+  <circle cx="260" cy="118" r="7" fill="#B5822A"/>
+  <text x="260" y="88" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Gate</text>
+  <text x="260" y="101" font-size="10" fill="#8A8F98" text-anchor="middle">description vs task</text>
+  <rect x="192" y="134" width="136" height="70" rx="6" fill="#10161B" stroke="#1E2630"/>
+  <text x="260" y="153" font-size="10.5" fill="#B9BEC6" text-anchor="middle">fails closed: triggered in</text>
+  <text x="260" y="167" font-size="10.5" fill="#B9BEC6" text-anchor="middle">56% of cases (Vercel eval)</text>
+  <text x="260" y="191" font-size="10" fill="#B5822A" text-anchor="middle">knowledge never arrives</text>
+
+  <!-- station 3 -->
+  <circle cx="430" cy="118" r="7" fill="#B5822A"/>
+  <text x="430" y="88" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Body in context</text>
+  <text x="430" y="101" font-size="10" fill="#8A8F98" text-anchor="middle">stays across turns</text>
+  <rect x="352" y="134" width="156" height="70" rx="6" fill="#10161B" stroke="#1E2630"/>
+  <text x="430" y="153" font-size="10.5" fill="#B9BEC6" text-anchor="middle">Task-Implementation Fault:</text>
+  <text x="430" y="167" font-size="10.5" fill="#B9BEC6" text-anchor="middle">86 of 125 functional failures</text>
+  <text x="430" y="191" font-size="10" fill="#B5822A" text-anchor="middle">68.8% of functional failures</text>
+
+  <!-- station 4 -->
+  <circle cx="580" cy="118" r="7" fill="#B5822A"/>
+  <text x="580" y="88" font-size="11.5" font-weight="700" fill="#E4E5E9" text-anchor="middle">Procedure</text>
+  <text x="580" y="101" font-size="10" fill="#8A8F98" text-anchor="middle">what the skill prescribes</text>
+  <rect x="510" y="134" width="140" height="70" rx="6" fill="#10161B" stroke="#1E2630"/>
+  <text x="580" y="153" font-size="10.5" fill="#B9BEC6" text-anchor="middle">extra checks and pipeline:</text>
+  <text x="580" y="167" font-size="10.5" fill="#B9BEC6" text-anchor="middle">114 of 182 efficiency</text>
+  <text x="580" y="191" font-size="10" fill="#B5822A" text-anchor="middle">regressions (62.6%)</text>
+
+  <!-- lower band: the counter-evidence -->
+  <rect x="30" y="228" width="610" height="88" rx="6" fill="#10161B" stroke="#1E2630"/>
+  <rect x="30" y="228" width="4" height="88" rx="2" fill="#45A87D"/>
+  <text x="48" y="250" font-size="11.5" font-weight="700" fill="#E4E5E9">The same format, measured in aggregate, helps</text>
+  <text x="48" y="268" font-size="10.5" fill="#B9BEC6">SkillsBench (v4, 87 tasks, 18 model-harness configs): curated skills lift average pass rate 33.9% → 50.5%.</text>
+  <text x="48" y="284" font-size="10.5" fill="#B9BEC6">Compact and standard-length skills +19.0 / +21.5 pp; detailed +14.5; comprehensive documentation +0.7.</text>
+  <text x="48" y="300" font-size="10.5" fill="#B9BEC6">13 of 87 tasks still went negative with skills; self-written skills landed below the no-skill baseline.</text>
+
+  <!-- footnote -->
+  <text x="24" y="346" font-size="9.5" fill="#5A6069">Stations: agentskills.io specification and Claude Code skills docs (read 2026-09-04). Gate rate: Vercel, Jan 2026, one framework eval.</text>
+  <text x="24" y="360" font-size="9.5" fill="#5A6069">Failure counts: Dong et al., "Agent Skills Can Be Harmful", arXiv 2608.11888, Aug 2026; one harness (OpenCode 1.15.1), one model (Claude Opus 4.6).</text>
+  <text x="24" y="374" font-size="9.5" fill="#5A6069">Aggregate: Li et al., SkillsBench, arXiv 2602.12670 v4. Not our measurement. Station layout is our reading.</text>
+</svg>

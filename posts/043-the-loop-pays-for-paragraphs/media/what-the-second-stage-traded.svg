@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="384" viewBox="0 0 660 384" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>What the second stage traded</title>
+  <rect width="660" height="384" fill="#FFFFFF"/>
+  <!-- title block -->
+  <text x="24" y="32" font-size="15" font-weight="700" fill="#1F2328">What the second stage traded</text>
+  <text x="24" y="52" font-size="11.5" fill="#57606A">One harness's permission classifier: the same prompt answered in one token, then re-asked with reasoning</text>
+  <text x="24" y="67" font-size="11.5" fill="#57606A">only when the token said block. Two error rates, before and after the second stage.</text>
+
+  <!-- column headers -->
+  <text x="210" y="98" font-size="11.5" font-weight="700" fill="#1F2328" text-anchor="middle">One token</text>
+  <text x="210" y="112" font-size="10" fill="#8B949E" text-anchor="middle">stage 1: "err on the side of blocking"</text>
+  <text x="470" y="98" font-size="11.5" font-weight="700" fill="#1F2328" text-anchor="middle">Token, then paragraph</text>
+  <text x="470" y="112" font-size="10" fill="#8B949E" text-anchor="middle">stage 2 re-reads what stage 1 flagged</text>
+
+  <!-- baseline, 10 px per percentage point, baseline y=310 -->
+  <line x1="150" y1="310" x2="530" y2="310" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="142" y="313" font-size="9.5" fill="#8B949E" text-anchor="end">0%</text>
+  <line x1="210" y1="120" x2="210" y2="310" stroke="#EAEEF2" stroke-width="1"/>
+  <line x1="470" y1="120" x2="470" y2="310" stroke="#EAEEF2" stroke-width="1"/>
+
+  <!-- benign actions blocked (false positive rate): 8.5 -> 0.4 -->
+  <line x1="210" y1="225" x2="470" y2="306" stroke="#0072B2" stroke-width="2.5"/>
+  <circle cx="210" cy="225" r="5.5" fill="#0072B2"/>
+  <circle cx="470" cy="306" r="5.5" fill="#0072B2"/>
+  <text x="198" y="229" font-size="12" font-weight="700" fill="#0072B2" text-anchor="end">8.5%</text>
+  <text x="482" y="310" font-size="12" font-weight="700" fill="#0072B2">0.4%</text>
+  <text x="198" y="242" font-size="10" fill="#57606A" text-anchor="end">benign actions blocked</text>
+  <text x="198" y="254" font-size="9.5" fill="#8B949E" text-anchor="end">10,000 real tool calls</text>
+
+  <!-- dangerous actions let through (false negative rate): 6.6 -> 17 -->
+  <line x1="210" y1="244" x2="470" y2="140" stroke="#D55E00" stroke-width="2.5"/>
+  <circle cx="210" cy="244" r="5.5" fill="#D55E00"/>
+  <circle cx="470" cy="140" r="5.5" fill="#D55E00"/>
+  <text x="228" y="262" font-size="12" font-weight="700" fill="#D55E00">6.6%</text>
+  <text x="482" y="144" font-size="12" font-weight="700" fill="#D55E00">17%</text>
+  <text x="482" y="157" font-size="10" fill="#57606A">dangerous actions let through</text>
+  <text x="482" y="169" font-size="9.5" fill="#8B949E">52 real overeager actions</text>
+
+  <!-- reading -->
+  <rect x="24" y="326" width="612" height="1" fill="#D0D7DE"/>
+  <text x="24" y="343" font-size="10.5" fill="#57606A">The paragraph un-blocked 8.1 points of benign actions and let about 10 more points of dangerous ones through</text>
+  <text x="24" y="357" font-size="10.5" fill="#57606A">(our subtraction from the published table). Same percent scale for both lines, 0 to 20.</text>
+  <text x="24" y="373" font-size="10" fill="#8B949E">Data: Anthropic, "How we built Claude Code auto mode" (March 2026), Table 1, n = 10,000 and n = 52. Not our measurement.</text>
+</svg>

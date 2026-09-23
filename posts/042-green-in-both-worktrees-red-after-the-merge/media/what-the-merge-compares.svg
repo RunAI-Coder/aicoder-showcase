@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="392" viewBox="0 0 660 392" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<title>What a three-way merge compares, and what it cannot</title>
+<rect width="660" height="392" fill="#08090A"/>
+<text x="24" y="30" fill="#E4E5E9" font-size="15" font-weight="600">What a three-way merge compares, and what it cannot</text>
+<text x="24" y="48" fill="#8A8F98" font-size="11">One of our ten runs. Two agents, two worktrees, one base commit. Git read the left column; the program broke in the right one.</text>
+<rect x="24" y="72" width="150" height="52" rx="6" fill="#10161B" stroke="#8A8F98" stroke-width="1.2"/>
+<text x="34" y="90" fill="#8A8F98" font-size="11.5" font-weight="600">base commit</text>
+<text x="34" y="106" fill="#B9BEC6" font-size="10.5">notes CLI, 4 tests green</text>
+<rect x="236" y="64" width="196" height="86" rx="6" fill="#10161B" stroke="#6B7FE3" stroke-width="1.2"/>
+<text x="246" y="82" fill="#6B7FE3" font-size="11.5" font-weight="600">worktree A · rename field</text>
+<text x="246" y="98" fill="#B9BEC6" font-size="10.5">store.py: done → completed</text>
+<text x="246" y="112" fill="#B9BEC6" font-size="10.5">render.py: n["completed"]</text>
+<text x="246" y="126" fill="#B9BEC6" font-size="10.5">cli.py, test_store.py</text>
+<text x="246" y="140" fill="#B9BEC6" font-size="10.5">own tests: green</text>
+<rect x="236" y="166" width="196" height="86" rx="6" fill="#10161B" stroke="#45A87D" stroke-width="1.2"/>
+<text x="246" y="184" fill="#45A87D" font-size="11.5" font-weight="600">worktree B · add stats</text>
+<text x="246" y="200" fill="#B9BEC6" font-size="10.5">stats.py (new): counts n["done"]</text>
+<text x="246" y="214" fill="#B9BEC6" font-size="10.5">render.py: render_stats()</text>
+<text x="246" y="228" fill="#B9BEC6" font-size="10.5">cli.py, test_stats.py, README</text>
+<text x="246" y="242" fill="#B9BEC6" font-size="10.5">own tests: green</text>
+<rect x="494" y="112" width="142" height="72" rx="6" fill="#10161B" stroke="#E4E5E9" stroke-width="1.2"/>
+<text x="504" y="130" fill="#E4E5E9" font-size="11.5" font-weight="600">git merge a, then b</text>
+<text x="504" y="146" fill="#B9BEC6" font-size="10.5">conflict markers: 0</text>
+<text x="504" y="160" fill="#B9BEC6" font-size="10.5">overlapping files: 2</text>
+<text x="504" y="174" fill="#B9BEC6" font-size="10.5">(cli.py, render.py)</text>
+<path d="M174,98 C205.0,98 205.0,107 236,107" fill="none" stroke="#6B7FE3" stroke-width="1.4"/>
+<circle cx="236" cy="107" r="2.6" fill="#6B7FE3"/>
+<path d="M174,98 C205.0,98 205.0,209 236,209" fill="none" stroke="#45A87D" stroke-width="1.4"/>
+<circle cx="236" cy="209" r="2.6" fill="#45A87D"/>
+<path d="M432,107 C463.0,107 463.0,140 494,140" fill="none" stroke="#6B7FE3" stroke-width="1.4"/>
+<circle cx="494" cy="140" r="2.6" fill="#6B7FE3"/>
+<path d="M432,209 C463.0,209 463.0,156 494,156" fill="none" stroke="#45A87D" stroke-width="1.4"/>
+<circle cx="494" cy="156" r="2.6" fill="#45A87D"/>
+<line x1="24" y1="260" x2="636" y2="260" stroke="#1E2630"/>
+<text x="24" y="278" fill="#E4E5E9" font-size="11.5" font-weight="600">what git compared</text>
+<text x="24" y="296" fill="#B9BEC6" font-size="10.5">areas of text in each file, against the base</text>
+<text x="24" y="310" fill="#B9BEC6" font-size="10.5">cli.py: A edited two calls, B added an import, a subparser and a dispatch branch → merged verbatim</text>
+<text x="24" y="324" fill="#B9BEC6" font-size="10.5">render.py: A edited one line, B appended a function → merged verbatim</text>
+<text x="24" y="338" fill="#B9BEC6" font-size="10.5">store.py, stats.py: touched by one side only → taken as is</text>
+<text x="376" y="278" fill="#B5822A" font-size="11.5" font-weight="600">what the merged program did</text>
+<text x="376" y="296" fill="#B5822A" font-size="10.5">merged tree, pytest: 1 failed, 7 passed</text>
+<text x="376" y="310" fill="#B9BEC6" font-size="10.5">notes stats → KeyError: 'done'</text>
+<text x="376" y="324" fill="#B9BEC6" font-size="10.5">stats.py reads a key store.py no longer writes</text>
+<text x="376" y="338" fill="#B9BEC6" font-size="10.5">neither agent had read the other's worktree</text>
+<text x="24" y="380" fill="#5A6069" font-size="9.5">Our run P1-1, 2026-09-22: a single model and CLI on a small repository; the pair was chosen to couple. Counts, not rates.</text>
+</svg>

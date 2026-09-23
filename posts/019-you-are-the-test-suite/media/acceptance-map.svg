@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 360" width="660" height="360" role="img" aria-label="Where acceptance lives: tasks whose output you can directly experience get fast human checks; tasks with invisible correctness need tests, review, and staged rollouts">
+  <rect width="660" height="360" fill="#FFFFFF"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="32" font-size="17" font-weight="600" fill="#1F2328">Where acceptance lives</text>
+    <text x="24" y="51" font-size="11" fill="#57606A">sort the request by one question before handing it to an AI</text>
+
+    <!-- left: experienceable -->
+    <rect x="24" y="72" width="296" height="200" rx="8" fill="#F6F8FA" stroke="#0072B2" stroke-width="1.6"/>
+    <text x="40" y="98" font-size="12.5" font-weight="600" fill="#0072B2">you can feel a mistake in minutes</text>
+    <g font-size="11" fill="#1F2328">
+      <text x="40" y="124">· a game you play</text>
+      <text x="40" y="144">· a chart you read</text>
+      <text x="40" y="164">· a page you click through</text>
+      <text x="40" y="184">· a deck you flip</text>
+      <text x="40" y="204">· a report you sanity-check</text>
+    </g>
+    <text x="40" y="232" font-size="10.5" font-weight="600" fill="#0072B2">acceptance = your senses</text>
+    <text x="40" y="247" font-size="10" fill="#57606A">fast, pleasant, blind to the code</text>
+    <text x="40" y="262" font-size="9" fill="#8B949E">caveat: a chart's data still needs provenance</text>
+
+    <!-- right: invisible -->
+    <rect x="340" y="72" width="296" height="200" rx="8" fill="#FFFFFF" stroke="#8B949E" stroke-width="1.4"/>
+    <text x="356" y="98" font-size="12.5" font-weight="600" fill="#57606A">a mistake surfaces in a week</text>
+    <g font-size="11" fill="#1F2328">
+      <text x="356" y="124">· a refactor's equivalence</text>
+      <text x="356" y="144">· a query's performance</text>
+      <text x="356" y="164">· a migration's safety</text>
+      <text x="356" y="184">· a security property</text>
+      <text x="356" y="204">· anything with concurrency</text>
+    </g>
+    <text x="356" y="236" font-size="10.5" font-weight="600" fill="#57606A">acceptance = the apparatus</text>
+    <text x="356" y="252" font-size="10" fill="#8B949E">tests, review, staged rollout</text>
+
+    <!-- axis -->
+    <line x1="24" y1="300" x2="636" y2="300" stroke="#D0D7DE" stroke-width="1.4"/>
+    <path d="M636,300 l-8,-4 v8 z" fill="#D0D7DE"/>
+    <text x="24" y="320" font-size="10" fill="#0072B2">two minutes of play</text>
+    <text x="636" y="320" font-size="10" fill="#57606A" text-anchor="end">a week and a production incident</text>
+    <text x="330" y="320" font-size="10" fill="#8B949E" text-anchor="middle">how quickly can you feel a mistake?</text>
+
+    <text x="24" y="346" font-size="9" fill="#8B949E">concept diagram — illustrative sorting, not a measurement</text>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 430" width="660" height="430" role="img" aria-label="Two shapes of parallel work: read-parallel merges as text, write-parallel collides at merge">
+  <defs>
+    <marker id="arr" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L8,4 L0,8 z" fill="#5A5F68"/>
+    </marker>
+  </defs>
+  <rect width="660" height="430" fill="#08090A"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="38" font-size="20" font-weight="600" fill="#E8E9EB">Two shapes of parallel work</text>
+    <text x="24" y="60" font-size="12" fill="#9BA0A8">research fans out well and code mostly doesn't; the merge is the difference</text>
+
+    <!-- divider -->
+    <line x1="330" y1="84" x2="330" y2="380" stroke="#1C1F26" stroke-width="1"/>
+
+    <!-- LEFT: read-parallel -->
+    <text x="24" y="98" font-size="12" font-weight="700" fill="#6B7FE3">READ-PARALLEL</text>
+    <text x="128" y="98" font-size="11" fill="#9BA0A8">workers return text</text>
+
+    <g stroke="#6B7FE3" stroke-width="1.5" fill="#11131A">
+      <rect x="24"  y="114" width="88" height="34" rx="6"/>
+      <rect x="127" y="114" width="88" height="34" rx="6"/>
+      <rect x="230" y="114" width="88" height="34" rx="6"/>
+    </g>
+    <g font-size="12" fill="#E8E9EB" text-anchor="middle">
+      <text x="68"  y="135">worker 1</text>
+      <text x="171" y="135">worker 2</text>
+      <text x="274" y="135">worker 3</text>
+    </g>
+    <g font-size="11" fill="#9BA0A8" text-anchor="middle">
+      <text x="68"  y="166">reads 18 files</text>
+      <text x="171" y="166">reads 25 files</text>
+      <text x="274" y="166">reads 12 files</text>
+    </g>
+    <g stroke="#5A5F68" stroke-width="1.2" fill="none" marker-end="url(#arr)">
+      <path d="M68,174 C68,205 130,214 152,226"/>
+      <path d="M171,174 L171,226"/>
+      <path d="M274,174 C274,205 212,214 190,226"/>
+    </g>
+    <rect x="91" y="232" width="160" height="46" rx="6" fill="#0D1512" stroke="#45A87D" stroke-width="1.5"/>
+    <text x="171" y="251" font-size="12" font-weight="700" fill="#45A87D" text-anchor="middle">one merged summary</text>
+    <text x="171" y="268" font-size="11" fill="#9BA0A8" text-anchor="middle">a few hundred tokens</text>
+    <text x="24" y="312" font-size="11" fill="#9BA0A8">the 55 files the workers read stay inside the clones</text>
+    <text x="24" y="328" font-size="11" fill="#9BA0A8">and get deleted with them</text>
+
+    <!-- RIGHT: write-parallel -->
+    <text x="342" y="98" font-size="12" font-weight="700" fill="#B5822A">WRITE-PARALLEL</text>
+    <text x="460" y="98" font-size="11" fill="#9BA0A8">workers return decisions</text>
+
+    <g stroke="#6B7FE3" stroke-width="1.5" fill="#11131A">
+      <rect x="342" y="114" width="88" height="34" rx="6"/>
+      <rect x="445" y="114" width="88" height="34" rx="6"/>
+      <rect x="548" y="114" width="88" height="34" rx="6"/>
+    </g>
+    <g font-size="12" fill="#E8E9EB" text-anchor="middle">
+      <text x="386" y="135">worker 1</text>
+      <text x="489" y="135">worker 2</text>
+      <text x="592" y="135">worker 3</text>
+    </g>
+    <g font-size="11" text-anchor="middle" font-weight="600">
+      <text x="386" y="166" fill="#6B7FE3">picks fetchUser</text>
+      <text x="489" y="166" fill="#45A87D">picks get_user</text>
+      <text x="592" y="166" fill="#B5822A">adds retry_util</text>
+    </g>
+    <g stroke="#5A5F68" stroke-width="1.2" fill="none" marker-end="url(#arr)">
+      <path d="M386,174 C386,205 448,214 470,226"/>
+      <path d="M489,174 L489,226"/>
+      <path d="M592,174 C592,205 530,214 508,226"/>
+    </g>
+    <rect x="409" y="232" width="160" height="46" rx="6" fill="#171208" stroke="#B5822A" stroke-width="1.5"/>
+    <text x="489" y="251" font-size="12" font-weight="700" fill="#B5822A" text-anchor="middle">collision at merge</text>
+    <text x="489" y="268" font-size="11" fill="#9BA0A8" text-anchor="middle">three styles, one codebase</text>
+    <text x="342" y="312" font-size="11" fill="#9BA0A8">every choice was locally fine;</text>
+    <text x="342" y="328" font-size="11" fill="#9BA0A8">the assumptions were never written down</text>
+
+    <text x="24" y="408" font-size="10" fill="#5A5F68">concept diagram — counts illustrative, not measured</text>
+  </g>
+</svg>

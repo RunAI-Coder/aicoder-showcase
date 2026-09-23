@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="400" viewBox="0 0 660 400" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <title>Each model&#39;s eighty runs, read as pass@1 through pass@8</title>
+  <rect x="0" y="0" width="660" height="400" fill="#FFFFFF"/>
+  <text x="32" y="40" font-size="17" font-weight="600" fill="#1F2328">Each model&#39;s eighty runs, read as pass@1 through pass@8</text>
+  <text x="32" y="62" font-size="12" fill="#57606A">Eight models, ten tasks, eight runs each; the share of tasks solved at least once in k tries</text>
+  <rect x="32" y="80" width="596" height="250" rx="6" fill="#F6F8FA" stroke="#D0D7DE"/>
+  <line x1="80" y1="300.0" x2="600" y2="300.0" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="72" y="304.0" font-size="11" fill="#8B949E" text-anchor="end">0%</text>
+  <line x1="80" y1="252.5" x2="600" y2="252.5" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="72" y="256.5" font-size="11" fill="#8B949E" text-anchor="end">25%</text>
+  <line x1="80" y1="205.0" x2="600" y2="205.0" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="72" y="209.0" font-size="11" fill="#8B949E" text-anchor="end">50%</text>
+  <line x1="80" y1="157.5" x2="600" y2="157.5" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="72" y="161.5" font-size="11" fill="#8B949E" text-anchor="end">75%</text>
+  <line x1="80" y1="110.0" x2="600" y2="110.0" stroke="#D0D7DE" stroke-width="1"/>
+  <text x="72" y="114.0" font-size="11" fill="#8B949E" text-anchor="end">100%</text>
+  <text x="80.0" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@1</text>
+  <text x="154.3" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@2</text>
+  <text x="228.6" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@3</text>
+  <text x="302.9" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@4</text>
+  <text x="377.1" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@5</text>
+  <text x="451.4" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@6</text>
+  <text x="525.7" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@7</text>
+  <text x="600.0" y="318" font-size="11" fill="#8B949E" text-anchor="middle">pass@8</text>
+  <polyline points="80.0,235.8 154.3,218.5 228.6,210.5 302.9,205.0 377.1,200.2 451.4,195.5 525.7,190.8 600.0,186.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,238.2 154.3,217.2 228.6,206.3 302.9,199.9 377.1,195.1 451.4,191.5 525.7,188.3 600.0,186.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,240.7 154.3,224.0 228.6,215.4 302.9,210.5 377.1,207.5 451.4,205.8 525.7,205.0 600.0,205.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,255.0 154.3,240.9 228.6,232.2 302.9,225.3 377.1,219.6 451.4,214.5 525.7,209.8 600.0,205.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,264.3 154.3,243.8 228.6,229.7 302.9,218.9 377.1,209.4 451.4,201.0 525.7,193.2 600.0,186.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,269.0 154.3,259.3 228.6,255.2 302.9,252.5 377.1,250.0 451.4,247.8 525.7,245.5 600.0,243.0" fill="none" stroke="#B1B7BE" stroke-width="1.5"/>
+  <polyline points="80.0,226.3 154.3,209.0 228.6,197.6 302.9,188.7 377.1,182.0 451.4,176.5 525.7,171.8 600.0,167.0" fill="none" stroke="#0072B2" stroke-width="2.5"/>
+  <polyline points="80.0,245.5 154.3,207.7 228.6,181.6 302.9,163.2 377.1,150.1 451.4,140.6 525.7,133.8 600.0,129.0" fill="none" stroke="#D55E00" stroke-width="2.5"/>
+  <circle cx="80.0" cy="226.3" r="3" fill="#0072B2"/>
+  <circle cx="154.3" cy="209.0" r="3" fill="#0072B2"/>
+  <circle cx="228.6" cy="197.6" r="3" fill="#0072B2"/>
+  <circle cx="302.9" cy="188.7" r="3" fill="#0072B2"/>
+  <circle cx="377.1" cy="182.0" r="3" fill="#0072B2"/>
+  <circle cx="451.4" cy="176.5" r="3" fill="#0072B2"/>
+  <circle cx="525.7" cy="171.8" r="3" fill="#0072B2"/>
+  <circle cx="600.0" cy="167.0" r="3" fill="#0072B2"/>
+  <circle cx="80.0" cy="245.5" r="3" fill="#D55E00"/>
+  <circle cx="154.3" cy="207.7" r="3" fill="#D55E00"/>
+  <circle cx="228.6" cy="181.6" r="3" fill="#D55E00"/>
+  <circle cx="302.9" cy="163.2" r="3" fill="#D55E00"/>
+  <circle cx="377.1" cy="150.1" r="3" fill="#D55E00"/>
+  <circle cx="451.4" cy="140.6" r="3" fill="#D55E00"/>
+  <circle cx="525.7" cy="133.8" r="3" fill="#D55E00"/>
+  <circle cx="600.0" cy="129.0" r="3" fill="#D55E00"/>
+  <text x="88" y="216.3" font-size="11" font-weight="600" fill="#0072B2" paint-order="stroke" stroke="#F6F8FA" stroke-width="4" stroke-linejoin="round">top row: 38.8% at one run</text>
+  <text x="592" y="159.0" font-size="11" font-weight="600" fill="#0072B2" text-anchor="end" paint-order="stroke" stroke="#F6F8FA" stroke-width="4" stroke-linejoin="round">70% by eight runs (7 of 10 tasks)</text>
+  <text x="88" y="290.5" font-size="11" font-weight="600" fill="#D55E00" paint-order="stroke" stroke="#F6F8FA" stroke-width="4" stroke-linejoin="round">fifth row: 28.8% at one run</text>
+  <text x="592" y="121.0" font-size="11" font-weight="600" fill="#D55E00" text-anchor="end" paint-order="stroke" stroke="#F6F8FA" stroke-width="4" stroke-linejoin="round">90% by eight runs (9 of 10 tasks)</text>
+  <text x="592" y="257.0" font-size="10.5" fill="#8B949E" text-anchor="end">other six rows in gray</text>
+  <text x="32" y="352" font-size="10.5" fill="#8B949E">Data: Real-SWE trial table (Specific Labs, Sept 2026), 10 sample tasks x 8 runs per model. pass@k is our arithmetic on their counts</text>
+  <text x="32" y="367" font-size="10.5" fill="#8B949E">(unbiased estimator, averaged over tasks). Not our measurement. Layout ours. Models unnamed here; the source names them.</text>
+  <text x="32" y="388" font-size="10.5" fill="#8B949E">pass@1 is the leaderboard figure. pass@8 is the share of tasks the model solved in at least one of its eight runs.</text>
+</svg>

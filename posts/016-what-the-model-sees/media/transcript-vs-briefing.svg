@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 350" width="660" height="350" role="img" aria-label="Two documents drifting apart: the client-side transcript keeps every turn while the per-turn briefing the model reads has old turns compacted into a summary and tool results cleared to placeholders">
+  <rect width="660" height="350" fill="#08090A"/>
+  <g font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="24" y="30" font-size="17" font-weight="600" fill="#E8E9EB">Same session, two documents</text>
+    <text x="24" y="49" font-size="11" fill="#9BA0A8">what you keep vs. what the model reads on turn 20</text>
+
+    <!-- left: transcript -->
+    <text x="80" y="80" font-size="12" font-weight="600" fill="#45A87D">the transcript you keep</text>
+    <text x="80" y="95" font-size="10" fill="#9BA0A8">full, unmodified, client-side</text>
+    <g>
+      <rect x="80" y="106" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="128" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="150" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="172" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="194" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="216" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="238" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="80" y="260" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <text x="180" y="296" font-size="10" fill="#5A5F68" text-anchor="middle">turns 1–20, all present</text>
+    </g>
+
+    <!-- divider arrow -->
+    <line x1="315" y1="180" x2="345" y2="180" stroke="#5A5F68" stroke-width="1.4"/>
+    <path d="M349,180 l-7,-4 v8 z" fill="#5A5F68"/>
+    <text x="330" y="165" font-size="10" fill="#9BA0A8" text-anchor="middle">compiled</text>
+
+    <!-- right: briefing -->
+    <text x="380" y="80" font-size="12" font-weight="600" fill="#6B7FE3">the briefing the model reads</text>
+    <text x="380" y="95" font-size="10" fill="#9BA0A8">rebuilt for this turn, edited</text>
+    <g>
+      <rect x="380" y="106" width="200" height="30" rx="3" fill="#1A140A" stroke="#B5822A"/>
+      <text x="390" y="125" font-size="10" fill="#B5822A">summary of turns 1–14</text>
+
+      <rect x="380" y="142" width="200" height="18" rx="3" fill="none" stroke="#5A5F68" stroke-dasharray="4 3"/>
+      <text x="390" y="155" font-size="9.5" fill="#9BA0A8">[tool result removed]</text>
+
+      <rect x="380" y="164" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="380" y="186" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+
+      <rect x="380" y="208" width="200" height="18" rx="3" fill="#1A140A" stroke="#B5822A"/>
+      <text x="390" y="221" font-size="9.5" fill="#B5822A">injected reminder</text>
+
+      <rect x="380" y="230" width="200" height="18" rx="3" fill="#10131A" stroke="#2A2F3A"/>
+      <rect x="380" y="252" width="200" height="18" rx="3" fill="#0E1712" stroke="#45A87D" stroke-width="1.4"/>
+      <text x="390" y="265" font-size="9.5" fill="#E8E9EB">your newest message</text>
+      <text x="480" y="296" font-size="10" fill="#5A5F68" text-anchor="middle">diverges at the first clear or compaction</text>
+    </g>
+
+    <text x="24" y="334" font-size="9" fill="#5A5F68">concept diagram — illustrative, not measured; clearing/summary behavior per Anthropic context-editing and context-engineering docs</text>
+  </g>
+</svg>

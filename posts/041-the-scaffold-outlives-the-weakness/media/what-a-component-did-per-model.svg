@@ -1,0 +1,92 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='660' height='430' viewBox='0 0 660 430' font-family='Inter, Segoe UI, Helvetica, Arial, sans-serif'>
+<title>What one harness component did for each model: change in success and cost when the component is switched</title>
+<rect width='660' height='430' fill='#FFFFFF'/>
+<text x='24.0' y='30.0' font-size='17' fill='#1F2328' text-anchor='start' font-weight='600' >What one harness component did for each model</text>
+<text x='24.0' y='50.0' font-size='11.5' fill='#57606A' text-anchor='start' font-weight='normal' >Change in success rate and in cost per task when the component is switched, four models, two benchmarks.</text>
+<text x='24.0' y='66.0' font-size='11.5' fill='#57606A' text-anchor='start' font-weight='normal' >Up and right: the part bought accuracy at a price. Left near zero: it mostly changed the bill.</text>
+<rect x='24' y='84' width='296' height='250' rx='6' fill='#F6F8FA' stroke='#D0D7DE'/>
+<text x='36.0' y='104.0' font-size='12' fill='#1F2328' text-anchor='start' font-weight='600' >Planning scaffold: on, compared with off</text>
+<line x1='68.0' y1='130' x2='68.0' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='68.0' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >-100%</text>
+<line x1='115.2' y1='130' x2='115.2' y2='290' stroke='#D0D7DE' stroke-width='1.6'/>
+<text x='115.2' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >0</text>
+<line x1='162.4' y1='130' x2='162.4' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='162.4' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >+100%</text>
+<line x1='209.6' y1='130' x2='209.6' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='209.6' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >+200%</text>
+<line x1='256.8' y1='130' x2='256.8' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='256.8' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >+300%</text>
+<line x1='304.0' y1='130' x2='304.0' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='304.0' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >+400%</text>
+<line x1='68' y1='290.0' x2='304' y2='290.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='62.0' y='293.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-30</text>
+<line x1='68' y1='258.0' x2='304' y2='258.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='62.0' y='261.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-20</text>
+<line x1='68' y1='226.0' x2='304' y2='226.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='62.0' y='229.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-10</text>
+<line x1='68' y1='194.0' x2='304' y2='194.0' stroke='#D0D7DE' stroke-width='1.6'/>
+<text x='62.0' y='197.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >0</text>
+<line x1='68' y1='162.0' x2='304' y2='162.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='62.0' y='165.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >+10</text>
+<line x1='68' y1='130.0' x2='304' y2='130.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='62.0' y='133.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >+20</text>
+<text x='186.0' y='320.0' font-size='9.5' fill='#57606A' text-anchor='middle' font-weight='normal' >change in cost per task</text>
+<text x='36.0' y='118.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >success rate, percentage points</text>
+<circle cx='280.4' cy='156.9' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<text x='272.4' y='159.9' font-size='9' fill='#1F2328' text-anchor='end' font-weight='normal' >30B</text>
+<circle cx='132.2' cy='202.3' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<circle cx='101.0' cy='200.4' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<circle cx='100.1' cy='195.3' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<rect x='145.6' y='174.6' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 150.6 179.6)'/>
+<text x='158.6' y='182.6' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >30B</text>
+<rect x='97.9' y='189.0' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 102.9 194.0)'/>
+<rect x='108.3' y='192.5' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 113.3 197.5)'/>
+<rect x='91.3' y='196.4' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 96.3 201.4)'/>
+<text x='71.8' y='235.6' font-size='8.5' fill='#57606A' text-anchor='start' font-weight='normal' >the other six points: 120B, 550B, 128B*</text>
+<text x='71.8' y='251.6' font-size='8.5' fill='#57606A' text-anchor='start' font-weight='normal' >cost -40% to +36%, success within 3 points</text>
+<rect x='340' y='84' width='296' height='250' rx='6' fill='#F6F8FA' stroke='#D0D7DE'/>
+<text x='352.0' y='104.0' font-size='12' fill='#1F2328' text-anchor='start' font-weight='600' >Bash only, compared with eight predefined tools</text>
+<line x1='384.0' y1='130' x2='384.0' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='384.0' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >-100%</text>
+<line x1='502.0' y1='130' x2='502.0' y2='290' stroke='#D0D7DE' stroke-width='1.6'/>
+<text x='502.0' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >0</text>
+<line x1='620.0' y1='130' x2='620.0' y2='290' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='620.0' y='304.0' font-size='9' fill='#8B949E' text-anchor='middle' font-weight='normal' >+100%</text>
+<line x1='384' y1='290.0' x2='620' y2='290.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='378.0' y='293.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-30</text>
+<line x1='384' y1='258.0' x2='620' y2='258.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='378.0' y='261.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-20</text>
+<line x1='384' y1='226.0' x2='620' y2='226.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='378.0' y='229.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >-10</text>
+<line x1='384' y1='194.0' x2='620' y2='194.0' stroke='#D0D7DE' stroke-width='1.6'/>
+<text x='378.0' y='197.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >0</text>
+<line x1='384' y1='162.0' x2='620' y2='162.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='378.0' y='165.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >+10</text>
+<line x1='384' y1='130.0' x2='620' y2='130.0' stroke='#D0D7DE' stroke-width='0.8'/>
+<text x='378.0' y='133.0' font-size='9' fill='#8B949E' text-anchor='end' font-weight='normal' >+20</text>
+<text x='502.0' y='320.0' font-size='9.5' fill='#57606A' text-anchor='middle' font-weight='normal' >change in cost per task</text>
+<text x='352.0' y='118.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >success rate, percentage points</text>
+<circle cx='422.9' cy='242.0' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<text x='430.9' y='245.0' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >30B</text>
+<circle cx='505.5' cy='199.1' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<text x='513.5' y='212.1' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >120B</text>
+<circle cx='440.6' cy='182.5' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<text x='432.6' y='185.5' font-size='9' fill='#1F2328' text-anchor='end' font-weight='normal' >550B</text>
+<circle cx='448.9' cy='268.2' r='5.5' fill='#0072B2' stroke='#FFFFFF' stroke-width='1.5'/>
+<text x='456.9' y='271.2' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >128B*</text>
+<rect x='395.5' y='221.3' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 400.5 226.3)'/>
+<text x='408.5' y='229.3' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >30B</text>
+<rect x='551.3' y='203.4' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 556.3 208.4)'/>
+<text x='564.3' y='211.4' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >120B</text>
+<rect x='461.6' y='171.1' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 466.6 176.1)'/>
+<text x='474.6' y='179.1' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >550B</text>
+<rect x='525.3' y='167.6' width='10' height='10' fill='#D55E00' stroke='#FFFFFF' stroke-width='1.5' transform='rotate(45 530.3 172.6)'/>
+<text x='538.3' y='175.6' font-size='9' fill='#1F2328' text-anchor='start' font-weight='normal' >128B*</text>
+<circle cx='30' cy='352' r='5' fill='#0072B2'/>
+<text x='40.0' y='356.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >SWE-Bench Verified (500 issues)</text>
+<rect x='225' y='347' width='9' height='9' fill='#D55E00' transform='rotate(45 229.5 351.5)'/>
+<text x='240.0' y='356.0' font-size='9.5' fill='#57606A' text-anchor='start' font-weight='normal' >Terminal-Bench 2.1 (89 tasks)</text>
+<text x='424.0' y='356.0' font-size='9' fill='#8B949E' text-anchor='start' font-weight='normal' >*128B: a different model family</text>
+<text x='24.0' y='406.0' font-size='8.5' fill='#8B949E' text-anchor='start' font-weight='normal' >Data: An Empirical Study of Harness Design for Coding Agents, arXiv 2609.20804, Tables 3 and 4 (128k window, T4 context management), one run per task.</text>
+<text x='24.0' y='418.0' font-size='8.5' fill='#8B949E' text-anchor='start' font-weight='normal' >Percent cost change is our arithmetic from the tables' mean cost per task; success change is in percentage points. Not our measurement.</text>
+</svg>

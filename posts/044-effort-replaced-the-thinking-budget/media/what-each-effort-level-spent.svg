@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="436" viewBox="0 0 660 436" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title>What each effort level spent on thinking</title>
+<rect width="660" height="436" fill="#08090A"/>
+<text x="22" y="28" font-size="15" font-weight="700" fill="#E4E5E9">What each effort level spent on thinking</text>
+<text x="22" y="46" font-size="10.5" fill="#B9BEC6">One model, one coding CLI, same repository; only --effort changed. One dot per run; the white bar is the median.</text>
+<line x1="250.0" y1="88" x2="250.0" y2="366.0" stroke="#1E2630" stroke-width="1"/>
+<text x="250.0" y="84" font-size="9" fill="#5A6069" text-anchor="middle">0–1</text>
+<line x1="326.9" y1="88" x2="326.9" y2="366.0" stroke="#1E2630" stroke-width="1"/>
+<text x="326.9" y="84" font-size="9" fill="#5A6069" text-anchor="middle">10</text>
+<line x1="403.7" y1="88" x2="403.7" y2="366.0" stroke="#1E2630" stroke-width="1"/>
+<text x="403.7" y="84" font-size="9" fill="#5A6069" text-anchor="middle">100</text>
+<line x1="480.6" y1="88" x2="480.6" y2="366.0" stroke="#1E2630" stroke-width="1"/>
+<text x="480.6" y="84" font-size="9" fill="#5A6069" text-anchor="middle">1,000</text>
+<text x="250" y="68" font-size="9" fill="#8A8F98">thinking tokens per run, log scale</text>
+<text x="22" y="109.3" font-size="10.5" font-weight="700" fill="#E4E5E9">Task 1 · add a --json flag</text>
+<text x="236" y="116.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">low</text>
+<line x1="250" y1="112.7" x2="540" y2="112.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="250.0" cy="112.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="250.0" cy="117.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="333.0" cy="112.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="335.6" cy="117.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="356.1" cy="112.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="333.0" y1="103.7" x2="333.0" y2="121.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="116.2" font-size="9.5" fill="#8A8F98">med 12 · 5/5 pass</text>
+<text x="236" y="150.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">medium</text>
+<line x1="250" y1="146.7" x2="540" y2="146.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="250.0" cy="146.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="250.0" cy="151.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="350.0" cy="146.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="371.4" cy="146.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="383.8" cy="146.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="350.0" y1="137.7" x2="350.0" y2="155.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="150.2" font-size="9.5" fill="#8A8F98">med 20 · 5/5 pass</text>
+<text x="236" y="184.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">high</text>
+<line x1="250" y1="180.7" x2="540" y2="180.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="385.0" cy="180.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="388.3" cy="185.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="401.0" cy="180.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="413.3" cy="180.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="433.8" cy="180.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="401.0" y1="171.7" x2="401.0" y2="189.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="184.2" font-size="9.5" fill="#8A8F98">med 92 · 5/5 pass</text>
+<text x="236" y="218.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">xhigh</text>
+<line x1="250" y1="214.7" x2="540" y2="214.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="395.4" cy="214.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="437.5" cy="214.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="439.5" cy="219.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="444.8" cy="219.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="483.0" cy="214.7" r="4.5" fill="#6B7FE3" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="439.5" y1="205.7" x2="439.5" y2="223.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="218.2" font-size="9.5" fill="#8A8F98">med 292 · 5/5 pass</text>
+<text x="22" y="245.3" font-size="10.5" font-weight="700" fill="#E4E5E9">Task 2 · natural due dates</text>
+<text x="236" y="252.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">low</text>
+<line x1="250" y1="248.7" x2="540" y2="248.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="385.0" cy="248.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="428.5" cy="248.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="453.5" cy="248.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="428.5" y1="239.7" x2="428.5" y2="257.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="252.2" font-size="9.5" fill="#8A8F98">med 210 · 3/3 pass</text>
+<text x="236" y="286.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">medium</text>
+<line x1="250" y1="282.7" x2="540" y2="282.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="447.6" cy="282.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="474.8" cy="282.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="476.6" cy="287.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="474.8" y1="273.7" x2="474.8" y2="291.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="286.2" font-size="9.5" fill="#8A8F98">med 840 · 3/3 pass</text>
+<text x="236" y="320.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">high</text>
+<line x1="250" y1="316.7" x2="540" y2="316.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="501.6" cy="316.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="504.4" cy="321.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="505.3" cy="306.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="504.4" y1="307.7" x2="504.4" y2="325.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="320.2" font-size="9.5" fill="#8A8F98">med 2,038 · 3/3 pass</text>
+<text x="236" y="354.2" font-size="10.5" fill="#B9BEC6" text-anchor="end">xhigh</text>
+<line x1="250" y1="350.7" x2="540" y2="350.7" stroke="#1E2630" stroke-width="1"/>
+<circle cx="522.6" cy="350.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="524.7" cy="355.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<circle cx="535.3" cy="350.7" r="4.5" fill="#B5822A" fill-opacity="0.85" stroke="#08090A" stroke-width="1"/>
+<line x1="524.7" y1="341.7" x2="524.7" y2="359.7" stroke="#E4E5E9" stroke-width="2"/>
+<text x="546" y="354.2" font-size="9.5" fill="#8A8F98">med 3,745 · 3/3 pass</text>
+<line x1="22" y1="378" x2="638" y2="378" stroke="#1E2630" stroke-width="1"/>
+<text x="22" y="392" font-size="9.5" fill="#8A8F98">Our measurement, 2026-09-23: 20 runs of task 1 and 12 of task 2, one model through one CLI; thinking tokens = the usage object's per-run total.</text>
+<text x="22" y="405" font-size="9.5" fill="#5A6069">Log axis; zero runs at the left edge; nearby dots offset vertically. Pass = our checks (task 1) or the run's own suite (task 2).</text>
+</svg>
